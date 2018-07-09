@@ -214,22 +214,22 @@
 <p><strong>EpiTools is composed of two main software projects to allow extended modularity</strong></p>
 <p>First <strong>an image processing application for MATLAB</strong> to extract the membrane outlines from the experimental data, featuring:</p>
 <ul>
-<li><a href="./../Analysis_Modules/00_projection">Adaptive surface projection</a></li>
-<li><a href="./../Analysis_Modules/03_segmentation">A Region growing segmentation algorithm with selective seeding</a></li>
-<li><a href="./../Analysis_Modules/05_tracking">Assisted Seed Correction for expert input</a></li>
-<li><a href="./../Quick_Guide/01_CreateAnalysisFile">An advanced GUI for a guided &amp; reproducible analysis</a></li>
+<li><a href="./Analysis_Modules/00_projection">Adaptive surface projection</a></li>
+<li><a href="./Analysis_Modules/03_segmentation">A Region growing segmentation algorithm with selective seeding</a></li>
+<li><a href="./Analysis_Modules/05_tracking">Assisted Seed Correction for expert input</a></li>
+<li><a href="./Quick_Guide/01_CreateAnalysisFile">An advanced GUI for a guided &amp; reproducible analysis</a></li>
 </ul>
 <p>Second <strong>a plugin collection for the <a href="http://icy.bioimageanalysis.org" target="_blank">bioimaging platform icy</a></strong> to interactively analyze the skeleton files, featuring:</p>
 <ul>
 <li><a href="./Icy_Plugins/02_CellGraph">A network based java data-structure to semantically describe the tissue</a></li>
-<li><a href="./../Icy_Plugins/01_CellOverlay">Automatic estraction &amp; display of development features</a> including:<ul>
+<li><a href="./Icy_Plugins/01_CellOverlay">Automatic estraction &amp; display of development features</a> including:<ul>
 <li>Divisions and Eliminations</li>
 <li>Junction rearragements (T1,T2)</li>
 <li>Cell Elongation Patterns</li>
 </ul>
 </li>
 <li><a href="./Icy_Plugins/03_CellExport">Numerous Export options including Spreadsheets, GraphML and Vector Graphics</a></li>
-<li><a href="./../Icy_Plugins/05_CellSurface">Visualization and measurement of the estimated 3D gridfit surface</a></li>
+<li><a href="./Icy_Plugins/05_CellSurface">Visualization and measurement of the estimated 3D gridfit surface</a></li>
 </ul>
 <p>Our projects are pulished with Open source licenses. Follow us on BitBucket!</p>
 <p>EpiTools was published in Developmental Cell (January 2016), freely available at <a href="http://dx.doi.org/10.1016/j.devcel.2015.12.012">http://dx.doi.org/10.1016/j.devcel.2015.12.012</a></p>
@@ -255,43 +255,9 @@
 * Fixed excel sheet export on EDGE_INTENSITY overlay (for single time points output file would be empty)
 * Fixed relative intensity option in EDGE_INTENSITY overlay (error on icy &gt;= 1.7)
 </code></pre>
-<p>View older news <a href="./../Support/Latest_News">here</a>.</p>
+<p>View older news <a href="./Support/Latest_News">here</a>.</p>
 <h2 id="downloads">Downloads</h2>
 <hr />
-<p><link rel="stylesheet" href="../colorbox.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-<script src="../../../epitools/colorbox-master/jquery.colorbox.js"></script>
-<script>
-    $(document).ready(function(){
-        //Examples of how to assign the Colorbox event to elements
-        $(".group1").colorbox({rel:'group1'});
-        $(".group2").colorbox({rel:'group2', transition:"fade"});
-        $(".group3").colorbox({rel:'group3', transition:"none", width:"75%", height:"75%"});
-        $(".group4").colorbox({rel:'group4', slideshow:true});
-        $(".ajax").colorbox();
-        $(".youtube").colorbox({iframe:true, innerWidth:640, innerHeight:390});
-        $(".vimeo").colorbox({iframe:true, innerWidth:500, innerHeight:409});
-        $(".iframe").colorbox({iframe:true, width:"80%", height:"80%"});
-        $(".inline").colorbox({inline:true, width:"50%"});
-        $(".callbacks").colorbox({
-            onOpen:function(){ alert('onOpen: colorbox is about to open'); },
-            onLoad:function(){ alert('onLoad: colorbox has started to load the targeted content'); },
-            onComplete:function(){ alert('onComplete: colorbox has displayed the loaded content'); },
-            onCleanup:function(){ alert('onCleanup: colorbox has begun the close process'); },
-            onClosed:function(){ alert('onClosed: colorbox has completely closed'); }
-        });</p>
-<pre><code>    $('.non-retina').colorbox({rel:'group5', transition:'none'})
-    $('.retina').colorbox({rel:'group5', transition:'none', retinaImage:true, retinaUrl:true});
-
-    //Example of preserving a JavaScript event for inline calls.
-    $("#click").click(function(){ 
-        $('#click').css({"background-color":"#f00", "color":"#fff", "cursor":"inherit"}).text("Open this window again and this message will still be here.");
-        return false;
-    });
-});
-</code></pre>
-</script>
-
 <table>
 <thead>
 <tr>
@@ -301,13 +267,13 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><a class='iframe' href="http://imls-bg-arthemis.uzh.ch/epitools/form.html"><img border="0" alt="Epitools for Matlab v2" src="../Images/download_matlab_v2.png"></a></td>
+<td align="center"><a href="https://github.com/epitools/epitools-matlab/releases"><img border="0" alt="Epitools for Matlab v2" src="Images/download_matlab_v2.png"></a></td>
 <td align="center"></td>
 </tr>
 </tbody>
 </table>
 <p><strong>For best compatability we reccomend using Matlab 2014a</strong></p>
-<p>visit our <a href="./../Support/FAQ">F.A.Q. section</a> for more details on the topic.</p>
+<p>visit our <a href="./Support/FAQ">F.A.Q. section</a> for more details on the topic.</p>
 <table>
 <thead>
 <tr>
@@ -317,13 +283,13 @@
 </thead>
 <tbody>
 <tr>
-<td align="center"><a class='iframe' href="http://imls-bg-arthemis.uzh.ch/epitools/form.html"><img border="0" alt="Epitools for Icy" src="../Images/download_icy_plugins.png"></a></td>
+<td align="center"><a href="https://github.com/epitools/epitools-icy/releases"><img border="0" alt="Epitools for Icy" src="Images/download_icy_plugins.png"></a></td>
 <td align="center"></td>
 </tr>
 </tbody>
 </table>
-<p><strong> The source code can be downloaded from our <a href="https://bitbucket.org/davideheller/epitools/">Bitbucket</a> repository</strong></p>
-<p>EpiTools is licensed under GPLv3 you can find the details <a href="./../Support/Software_License">here</a>.</p>
+<p><strong> The source code can be downloaded from our <a href="https://github.com/epitools">Github</a> repositories</strong></p>
+<p>EpiTools is licensed under GPLv3 you can find the details <a href="./Support/Software_License">here</a>.</p>
 <h2 id="video-tutorials">Video Tutorials</h2>
 <hr />
 <p><a href="https://www.dropbox.com/sh/ufehjrpfbgohn3x/AAACP2IIabj1u-VqWK9KnQFla?dl=0" target="_blank">EpiTools v2 Video Tutorials</a> </p>
@@ -376,20 +342,6 @@
 <h6 id="this-page-was-written-by-lorenzo-gatti-and-davide-heller-on-2608141657">This page was written by <a href="mailto:lorenzo.gatti.89@gmail.com">Lorenzo Gatti</a> and <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 26.08.14@16:57</h6>
 <!-- This contains the hidden content for inline calls -->
 
-<div style='display:none'>
-    <div id='inline_content' style='padding:10px; background:#fff;'>
-    <p><strong>This content comes from a hidden element on this page.</strong></p>
-    <p>The inline option preserves bound JavaScript events and changes, and it puts the content back where it came from when it is closed.</p>
-    <p><a id="click" href="#" style='padding:5px; background:#ccc;'>Click me, it will be preserved!</a></p>
-
-    <p><strong>If you try to open a new Colorbox while it is already open, it will update itself with the new content.</strong></p>
-    <p>Updating Content Example:<br />
-    <a class="ajax" href="../content/ajax.html">Click here to load new content</a></p>
-    </div>
-</div>
-
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
-
 <script>
 (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -437,5 +389,5 @@ ga('send', 'pageview');
 
 <!--
 MkDocs version : 0.16.2
-Build Date UTC : 2018-07-09 14:44:18
+Build Date UTC : 2018-07-09 15:11:12
 -->
