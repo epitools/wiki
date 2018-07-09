@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>05 CellSurface - EpiTools Wiki Pages</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../colorbox.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Analysis_Modules/00_projection/">00 projection</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/01_registration/">01 registration</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/02_clahe/">02 clahe</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/03_segmentation/">03 segmentation</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/04_polygonMask/">04 polygonMask</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/05_tracking/">05 tracking</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/06_skeleton/">06 skeleton</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../01_CellOverlay/">01 CellOverlay</a>
+</li>
+                            
+<li >
+    <a href="../02_CellGraph/">02 CellGraph</a>
+</li>
+                            
+<li >
+    <a href="../03_CellExport/">03 CellExport</a>
+</li>
+                            
+<li >
+    <a href="../04_CellEditor/">04 CellEditor</a>
+</li>
+                            
+<li class="active">
+    <a href="./">05 CellSurface</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Quick_Guide/00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/03_RunModules/">03 RunModules</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/04_Connecting_icy/">04 Connecting icy</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/05_Multiple_ROIs/">05 Multiple ROIs</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Support/FAQ/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Known_Issues/">Known Issues</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Latest_News/">Latest News</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Release_Notes/">Release Notes</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Software_License/">Software License</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../04_CellEditor/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../../Quick_Guide/00_Installation/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/davideheller/epitools/"><i class="fa fa-bitbucket"></i>Bitbucket
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#visualizing-gridfit-surfaces-with-cellsurface-and-cellprojection">Visualizing GridFit© Surfaces with CellSurface and CellProjection</a></li>
+            <li><a href="#assumption">Assumption</a></li>
+            <li><a href="#cellsurface">CellSurface</a></li>
+            <li><a href="#cellprojection">CellProjection</a></li>
+            <li><a href="#example-files">Example files</a></li>
+            <li><a href="#references">References</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="visualizing-gridfit-surfaces-with-cellsurface-and-cellprojection">Visualizing GridFit© Surfaces with CellSurface and CellProjection</h1>
+<hr />
+<h2 id="assumption">Assumption</h2>
+<p>The <a href="../../../Analysis_Modules/00_projection">selective plane projection module</a> from the EpiTools app for Matlab was used (version &gt; 2.1.5). The latter automatically saves ASCII files containing the 2nd estimated surface by GridFit© [1]. </p>
+<p>The surface/height map files can be found in the <em>Analysis/</em> folder under <em>vtk/gridfit_frame_###.vtk</em>. Every line in these files represents a coordinate in the surface grid (i.e. x,y,z). Starting from EpiTools plugins for icy <a href="../../../Support/Latest_News">version 0.8.7</a> we provide two tools to use these files, one to visualize the surface as 3D rendering (CellSurface) and the other to evaluate the position of cells in 3D (CellProjection overlay).</p>
+<p>We provide example files <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/samples/cellSurface_example.zip">here</a> to generate the visualizations below.</p>
+<h2 id="cellsurface">CellSurface</h2>
+<p><strong>Requisites:</strong> icy plugin 3D Mesh ROI plugin [2]</p>
+<p>The <em>CellSurface</em> plugin visualizes the height map as 3D rendering, leveraging on the 3D Mesh ROI plugin [2] and the VTK library [3] integrated in icy. Time series are supported by assigning individual ROIs to specific frames, allowing the user to inspect the morphological changes of the surface over time.</p>
+<p>To load our example:</p>
+<ol>
+<li>Open <em>frame_000.tif</em> and the CellSurface plugin</li>
+<li>Set <em>gridfit_frame_000.vtk</em> as input vtk file</li>
+<li>Verify the pixel size in the Sequence Properties (Icy Side Bar) to scale the surface correctly, for the example it should be (x = y = 0.102um) and (z = 0.219um) see (A.) </li>
+<li>Select 3DVTK mode in the sequence viewer (2nd menu from the left) (B.) </li>
+<li>Try the decimate option for better performance and less memory use in case of time series (C.) </li>
+<li>Run the plugin (triangle)</li>
+<li>The Surface can be saved as <em>ROI XML file</em> in the ROI menu (D.)</li>
+</ol>
+<p>For more information about the decimation method visit the dedicated <a href="http://www.vtk.org/doc/nightly/html/classvtkDecimatePro.html">vtk documentation page</a></p>
+<p><code>[WARNING] Currently we do not support registered data as the translation is applied after surface export</code> 
+<code>[WARNING] If used on a z-stack, leaving the 3DVTK starts cpu intesive computation by 3D mesh roi plugin to adapt the ROI in 2D, to avoid this we suggest removing the ROI beforehand.</code></p>
+<p><img alt="CellGraph output" src="../../../Images/icy/CellSurface/surface.png" /></p>
+<h2 id="cellprojection">CellProjection</h2>
+<p>The <em>CellProjection</em> overlay for the <a href="../../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> visualizes as color gradient the magnitude of the z-component from the surface normal of every cell. The overlay uses the estimated height map to assign z-coordinates to all coordinates of the cell’s polygon. To compute the apporximated 3D surface normal for every cells we use Newell’s method [4]. The z-component of the surface normal is useful to estimate the area projection bias through the proportional dependence between 3D and projected 2D area [5]. All values can be exported in an excel sheet through the layer options menu in icy.</p>
+<p>To load our example:</p>
+<ol>
+<li>Open <em>frame_000.tif</em> and the <a href="../../../Icy_Plugins/02_CellGraph">CellGraph plugin</a></li>
+<li>Choose FileType WKT and set <em>skeleton_000.wkt</em> as first time point. </li>
+<li>Run the plugin and a red outline should appear on the sequence (see figure 1)</li>
+<li>Open <a href="../../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> and select CELL_PROJECTION as Overlay</li>
+<li>Set <em>gridfit_frame_000.vtk</em> as first surface file (A.)</li>
+<li>Verify the pixel size in the Sequence Properties (Icy Side Bar) to scale the surface correctly, for the example it should be (x = y = 0.102um) and (z = 0.219um) (B.)</li>
+<li>Run the plugin (i.e. add the overlay on the sequence)</li>
+<li>Export an XLS sheet with the information for every cell in the Layer Option menu (C.)</li>
+</ol>
+<p>An example output excel sheet can be found in the example dataset.</p>
+<p><img alt="CellGraph output" src="../../../Images/icy/CellSurface/projection.png" /></p>
+<h2 id="example-files">Example files</h2>
+<p>The example surface data set contains the following files</p>
+<table>
+<thead>
+<tr>
+<th>File</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>frame_000.tif</strong></td>
+<td>Projected image of wing disc sample with pixel size (x = y = 0.102um) and (z = 0.219um)</td>
+</tr>
+<tr>
+<td><strong>skeleton_000.wkt</strong></td>
+<td>Segmentation line saved with CellExporter for faster loading</td>
+</tr>
+<tr>
+<td><strong>border_000.wkt</strong></td>
+<td>Segmentation border saved with CellExporter for faster loading</td>
+</tr>
+<tr>
+<td><strong>gridfit_frame_000.vtk</strong></td>
+<td>Surface file for frame_000.tif containing the coordinates of the 2nd gridFit estimation in ASCII format (1 grid point per line: x,y,z)</td>
+</tr>
+<tr>
+<td><strong>cell_projection_overlay.xls</strong></td>
+<td>Example excel output sheet containing the compents of the unit surface normal for every cell in teh skeleton</td>
+</tr>
+</tbody>
+</table>
+<h2 id="references">References</h2>
+<ol>
+<li><a href="http://www.mathworks.ch/matlabcentral/fileexchange/8998-surface-fitting-using-gridfit">Surface Fitting using gridfit by John D’Errico</a></li>
+<li>Plugin by Alexandre Dufour, available at: <a href="http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI">http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI</a>, to install it simply use the <a href="../../../Icy_Plugins/00_Installation">icy search bar</a></li>
+<li><a href="http://www.vtk.org">http://www.vtk.org</a></li>
+<li>Sutherland, Evan E., Robert F. Sproull, and Robert a. Schumacker. 1974. “A Characterization of Ten Hidden-Surface Algorithms.” ACM Computing Surveys 6 (1): 1–55. doi:10.1145/356625.356626</li>
+<li>John M. Snyder and Alan H. Barr. 1987. Ray tracing complex models containing surface tessellations. ACM Computer Graphics 21 (4): 119-128. doi:10.1145/37401.37417</li>
+</ol>
+<hr />
+<h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
+<h6 id="this-page-was-written-by-davide-heller-on-101120152000">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 10.11.2015@20:00</h6>
+<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55332946-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

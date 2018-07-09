@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>05 tracking - EpiTools Wiki Pages</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../colorbox.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../00_projection/">00 projection</a>
+</li>
+                            
+<li >
+    <a href="../01_registration/">01 registration</a>
+</li>
+                            
+<li >
+    <a href="../02_clahe/">02 clahe</a>
+</li>
+                            
+<li >
+    <a href="../03_segmentation/">03 segmentation</a>
+</li>
+                            
+<li >
+    <a href="../04_polygonMask/">04 polygonMask</a>
+</li>
+                            
+<li class="active">
+    <a href="./">05 tracking</a>
+</li>
+                            
+<li >
+    <a href="../06_skeleton/">06 skeleton</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Icy_Plugins/00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/01_CellOverlay/">01 CellOverlay</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/02_CellGraph/">02 CellGraph</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/03_CellExport/">03 CellExport</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/04_CellEditor/">04 CellEditor</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/05_CellSurface/">05 CellSurface</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Quick_Guide/00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/03_RunModules/">03 RunModules</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/04_Connecting_icy/">04 Connecting icy</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/05_Multiple_ROIs/">05 Multiple ROIs</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Support/FAQ/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Known_Issues/">Known Issues</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Latest_News/">Latest News</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Release_Notes/">Release Notes</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Software_License/">Software License</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../04_polygonMask/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../06_skeleton/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/davideheller/epitools/"><i class="fa fa-bitbucket"></i>Bitbucket
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#tracking-corrections">Tracking Corrections</a></li>
+            <li><a href="#summary">Summary</a></li>
+            <li><a href="#assumptions">Assumptions</a></li>
+            <li><a href="#parameters">Parameters</a></li>
+            <li><a href="#usage">Usage</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="tracking-corrections">Tracking Corrections</h1>
+<hr />
+<h2 id="summary">Summary</h2>
+<p>This module helps to reduce the amount of segmentation errors in the image by tracking all cell seeds throughout every frame. The GUI shows the seeds and the cell boundaries obtained from the segmentation module and uses the registered image as background.</p>
+<p><img alt="Selective Plane Projection" src="../../../Images/matlab/tracking.png" /></p>
+<hr />
+<h2 id="assumptions">Assumptions</h2>
+<p>Incompletely tracked cells are often due to segmentation mistakes which can be corrected by manual supervision. Manual intervention is currently defined as placing and removing seeds by simple clicking actions. The algorithm will automatically recalculate the trajectories when a modification occurs.</p>
+<hr />
+<h2 id="parameters">Parameters</h2>
+<p><code>Parameter: Tracking Radius</code></p>
+<ul>
+<li>Defines the maximal distance which every cell is allowed to travel from frame to frame</li>
+<li>This parameter limits the </li>
+<li><em>units</em> [pixels]</li>
+<li><em>default value</em>: 15 </li>
+</ul>
+<hr />
+<h2 id="usage">Usage</h2>
+<ul>
+<li>
+<p>Working modes</p>
+<ul>
+<li><code>Overview</code><ul>
+<li>Default visualization which gives the user an overview of the sample.</li>
+</ul>
+</li>
+<li><code>Zoom</code><ul>
+<li>Upon clicking on the overview the image will changed into a close-up (zoom) of the sample. Only here it is possible to manually edit the seeding.</li>
+<li>Trajectories are each assigned an individual color<ul>
+<li><em>Larger seeds</em> are correctly tracked</li>
+<li><em>Smaller seeds</em> have an incomplete track<ul>
+<li>a mark on the right signals a problem towards the end of the time lapse</li>
+<li>a mark on the left signals a problem towards the beginning of the time lapse</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Main Interactions</p>
+<ul>
+<li><code>Switch working modes</code><ul>
+<li>Click on the portion of the overview to work on</li>
+<li>Press the space bar to return to the overview.</li>
+</ul>
+</li>
+<li><code>Add or delete seeds</code><ul>
+<li>For this action the zoom mode must be active</li>
+<li>Click on an empty region to add a seed</li>
+<li>Click on a present seed to remove it</li>
+</ul>
+</li>
+<li><code>Move in time</code><ul>
+<li>scroll with mouse</li>
+<li>right/left arrows</li>
+<li>slider</li>
+</ul>
+</li>
+<li><code>Inspect incomplete track source</code><ul>
+<li>press <em>i</em> (Inspect) and click on an incomplete seed (small) to be guided to the frame where the tracking is incomplete.</li>
+</ul>
+</li>
+<li><code>Accept incomplete track</code><ul>
+<li>Division, Eliminations as well as poor imaging may require to leave a track incomplete. </li>
+<li>To mark the seed as reviewed press <em>o</em> (Ok) and click on the incomplete seed.</li>
+<li>The seed will be crossed by a horizontal bar to visualize the action.</li>
+</ul>
+</li>
+<li><code>Save</code><ul>
+<li>To save the progress at any time press <em>s</em></li>
+<li>A file containing the modifications will be saved into the analysis directory with a time stamp</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Advanced Interactions</p>
+<ul>
+<li><code>Hide segmentation</code><ul>
+<li>review the underlying image by pressing <em>h</em> (hide), press again to show</li>
+</ul>
+</li>
+<li><code>Delete track</code><ul>
+<li>delete an entire cell track by pressing <em>t</em> (Track deletion) and clicking on the seed</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
+<h6 id="this-page-was-written-by-davide-heller-on-3009141730">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 30.09.14@17:30</h6>
+<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55332946-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

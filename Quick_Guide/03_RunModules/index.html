@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>03 RunModules - EpiTools Wiki Pages</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../colorbox.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Analysis_Modules/00_projection/">00 projection</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/01_registration/">01 registration</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/02_clahe/">02 clahe</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/03_segmentation/">03 segmentation</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/04_polygonMask/">04 polygonMask</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/05_tracking/">05 tracking</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/06_skeleton/">06 skeleton</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Icy_Plugins/00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/01_CellOverlay/">01 CellOverlay</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/02_CellGraph/">02 CellGraph</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/03_CellExport/">03 CellExport</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/04_CellEditor/">04 CellEditor</a>
+</li>
+                            
+<li >
+    <a href="../../Icy_Plugins/05_CellSurface/">05 CellSurface</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
+</li>
+                            
+<li >
+    <a href="../02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
+</li>
+                            
+<li class="active">
+    <a href="./">03 RunModules</a>
+</li>
+                            
+<li >
+    <a href="../04_Connecting_icy/">04 Connecting icy</a>
+</li>
+                            
+<li >
+    <a href="../05_Multiple_ROIs/">05 Multiple ROIs</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Support/FAQ/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Known_Issues/">Known Issues</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Latest_News/">Latest News</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Release_Notes/">Release Notes</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Software_License/">Software License</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../02_OpenAnalysisSM/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../04_Connecting_icy/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/davideheller/epitools/"><i class="fa fa-bitbucket"></i>Bitbucket
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#home">Home</a></li>
+        <li class="main "><a href="#run-your-first-analysis-module">Run your first analysis module</a></li>
+            <li><a href="#run-modules">Run modules</a></li>
+            <li><a href="#available-modules-in-release-01b">Available modules in release 0.1b</a></li>
+            <li><a href="#our-instructions-are-too-complicated-are-u-lost-watch-our-video-tutorials">Our instructions are too complicated? Are u lost? Watch our video tutorials!</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h6 id="home"><a href="../Home">Home</a></h6>
+<hr />
+<h2 id="run-your-first-analysis-module">Run your first analysis module</h2>
+<p>EpiTools separates each analysis step in modules which can executed independently. Their order is given by the pipeline that the user wants to implement and execute on the particular set of images he acquired. Analysis modules can be called from the <em>Actions</em> menu in the menu bar. </p>
+<hr />
+<h4 id="run-modules">Run modules</h4>
+<ol>
+<li>Select a module to run from <em>Action</em> menu</li>
+<li>In case the module requires any additional settings, you will be prompted with a windows where you will be able to specified the required settings. </li>
+<li>On analysis module completion, you will be able to visualise the results (if the module generates them) and you will see a new node in the <em>analysis workflow</em> tree.</li>
+</ol>
+<hr />
+<h4 id="available-modules-in-release-01b">Available modules in release 0.1b</h4>
+<ol>
+<li><a href="../../../Analysis_Modules/00_projection">Projection</a> </li>
+<li><a href="../../../Analysis_Modules/01_registration">Registration</a></li>
+<li><a href="../../../Analysis_Modules/02_clahe">Contrast Enhancement</a></li>
+<li><a href="../../../Analysis_Modules/03_segmentation">Segmentation</a> <ul>
+<li><a href="../../../Analysis_Modules/03_segmentation">Re-segmentation</a></li>
+</ul>
+</li>
+<li><a href="../../../Analysis_Modules/04_polygonMask">Polygon Masking</a></li>
+<li><a href="../../../Analysis_Modules/05_tracking">Tracking Correction</a></li>
+<li><a href="../../../Analysis_Modules/06_skeleton">Skeleton generation</a></li>
+</ol>
+<hr />
+<h3 id="our-instructions-are-too-complicated-are-u-lost-watch-our-video-tutorials">Our instructions are too complicated? Are u lost? Watch our video tutorials!</h3>
+<ol>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-03_Projection.mov" target="_blank">Projection tutorial movie</a></li>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-04_Registration_Builtin.mov" target="_blank">Registration tutorial movie</a></li>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-05_CLAHE.mov" target="_blank">Contrast Enhancement tutorial movie</a></li>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-06_Segmentation.mov" target="_blank">Segmentation tutorial movie</a></li>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-07_Tracking.mov" target="_blank">Tracking tutorial movie</a></li>
+<li><a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-09_SkeletonGeneration.mov" target="_blank">Skeleton tutorial movie</a></li>
+</ol>
+<hr />
+<h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
+<h6 id="this-page-was-written-by-lorenzo-gatti-on-2208141458">This page was written by <a href="mailto:lorenzo.gatti.89@gmail.com">Lorenzo Gatti</a> on 22.08.14@14.58</h6>
+<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55332946-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

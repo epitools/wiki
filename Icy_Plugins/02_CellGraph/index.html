@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>02 CellGraph - EpiTools Wiki Pages</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="../../css/highlight.css">
+        <link href="../../colorbox.css" rel="stylesheet">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+        <![endif]-->
+	
+	<script src="../../js/jquery-1.10.2.min.js"></script>
+        <script src="../../js/bootstrap-3.0.3.min.js"></script>
+        <script src="../../js/highlight.pack.js"></script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container">
+
+        <!-- Collapsed navigation -->
+        <div class="navbar-header">
+            <!-- Expander button -->
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+        </div>
+
+        <!-- Expanded navigation -->
+        <div class="navbar-collapse collapse">
+                <!-- Main navigation -->
+                <ul class="nav navbar-nav">
+                    <li >
+                        <a href="../..">Home</a>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Analysis_Modules/00_projection/">00 projection</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/01_registration/">01 registration</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/02_clahe/">02 clahe</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/03_segmentation/">03 segmentation</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/04_polygonMask/">04 polygonMask</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/05_tracking/">05 tracking</a>
+</li>
+                            
+<li >
+    <a href="../../Analysis_Modules/06_skeleton/">06 skeleton</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown active">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../01_CellOverlay/">01 CellOverlay</a>
+</li>
+                            
+<li class="active">
+    <a href="./">02 CellGraph</a>
+</li>
+                            
+<li >
+    <a href="../03_CellExport/">03 CellExport</a>
+</li>
+                            
+<li >
+    <a href="../04_CellEditor/">04 CellEditor</a>
+</li>
+                            
+<li >
+    <a href="../05_CellSurface/">05 CellSurface</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Quick_Guide/00_Installation/">00 Installation</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/03_RunModules/">03 RunModules</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/04_Connecting_icy/">04 Connecting icy</a>
+</li>
+                            
+<li >
+    <a href="../../Quick_Guide/05_Multiple_ROIs/">05 Multiple ROIs</a>
+</li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            
+<li >
+    <a href="../../Support/FAQ/">FAQ</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Known_Issues/">Known Issues</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Latest_News/">Latest News</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Release_Notes/">Release Notes</a>
+</li>
+                            
+<li >
+    <a href="../../Support/Software_License/">Software License</a>
+</li>
+                        </ul>
+                    </li>
+                </ul>
+
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                        <i class="fa fa-search"></i> Search
+                    </a>
+                </li>
+                    <li >
+                        <a rel="next" href="../01_CellOverlay/">
+                            <i class="fa fa-arrow-left"></i> Previous
+                        </a>
+                    </li>
+                    <li >
+                        <a rel="prev" href="../03_CellExport/">
+                            Next <i class="fa fa-arrow-right"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://bitbucket.org/davideheller/epitools/"><i class="fa fa-bitbucket"></i>Bitbucket
+                        </a>
+                    </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#creating-new-graphs-with-cellgraph">Creating new Graphs with CellGraph</a></li>
+            <li><a href="#1-choose-your-input-files">1. Choose your Input files</a></li>
+            <li><a href="#2-review-the-secondary-input-options-optional">2. Review the secondary input options [optional]</a></li>
+            <li><a href="#3-choose-if-to-track-your-skeletons">3. Choose if to track your skeletons</a></li>
+            <li><a href="#4-review-tracking-options-optional">4. Review tracking options [optional]</a></li>
+            <li><a href="#5-choose-the-destination">5. Choose the Destination</a></li>
+            <li><a href="#6-run-the-plugin">6. Run the plugin</a></li>
+            <li><a href="#generated-result">Generated Result</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="creating-new-graphs-with-cellgraph">Creating new Graphs with CellGraph</h1>
+<hr />
+<p>While the <a href="../../01_CellOverlay">CellOverlay</a> plugin generates the Overlays, it requires a graph structure in the shared plugin memory (also called <em>swimming pool</em> in icy). Learn here how to transform your skeleton images into a graph structure using the CellGraph plugin.</p>
+<p>For a general introduction to the CellGraph concept watch our <a href="https://www.dropbox.com/s/ahgcnho6mjit0z9/02_CellGraph_concept.mov?dl=0">first tutorial video</a>. Another video dedicated to how to import skeleton time series is available <a href="https://www.dropbox.com/s/m1um7hdl26h5iqi/04_CellOverlay_introduction_area.mov?dl=0">here</a> too.</p>
+<pre><code>Warning: 
+- Currently only one graph at the time is allowed in memory.
+- Currently only the following file pattern for time series is allowed: [name]_000.[ext]
+- Currently one skeleton file per frame is required, i.e. a multiple image tiff is not supported
+</code></pre>
+<hr />
+<p>To create a graph and load it into memory open the CellGraph plugin from the toolbar: </p>
+<h3 id="1-choose-your-input-files">1. Choose your Input files</h3>
+<p><img alt="Export an ovlerlay" src="../../../Images/icy/CellGraph/CG_1.png" /></p>
+<p>Most importantly CellGraph needs files from which to extract the graph structure:</p>
+<ol>
+<li>If your files are images/bitmaps the default <em>File type</em> 'SKELETON' is correct<ul>
+<li>Alternative files are WKT &amp; VKT, both text based</li>
+</ul>
+</li>
+<li>Choose your input file<ul>
+<li>If you want to load a time series select the <em>First time point</em></li>
+<li>Please notice the file name convention mentioned in the warning above</li>
+</ul>
+</li>
+<li>Set the number of <em>Time points to load</em>, to start it is recommended to try with 1 or 2</li>
+</ol>
+<h3 id="2-review-the-secondary-input-options-optional">2. Review the secondary input options [optional]</h3>
+<p><img alt="Export an ovlerlay" src="../../../Images/icy/CellGraph/CG_2.png" /></p>
+<p>In order to correctly analyze the input files CellGraph can be fine tuned for specific file types. By default CellGraph assumes to receive files which were directly exported from the EpiTools App for Matlab.</p>
+<ol>
+<li>Click the <em>Packing Analyzer files</em> if you used the software Packing Analyzer v.2-8 by (Aigouy et al. (2010)) for segmentation<ul>
+<li>In this scenario use the image as first file. Cell_Graph will use the /handCorrection.png as skeleton</li>
+</ul>
+</li>
+<li>Choose <em>Cut on border line</em> to exclude the most outer cell layer from the analysis<ul>
+<li>This is advisable in case of poor performance at the segmentation boundaries</li>
+</ul>
+</li>
+<li>Choose <em>Remove very small cells</em> to exclude cells below an area threshold automatically<ul>
+<li>e.g. avoid small segmentation artefacts to be recognized as cells</li>
+</ul>
+</li>
+</ol>
+<h3 id="3-choose-if-to-track-your-skeletons">3. Choose if to track your skeletons</h3>
+<p><img alt="Export an ovlerlay" src="../../../Images/icy/CellGraph/CG_3.png" /></p>
+<p>Tracking is only possible if a time series is given as inptut</p>
+<ol>
+<li>The standard tracking <em>Algorithm</em> is currently <em>STABLE_MARRIAGE</em><ul>
+<li>Try the <em>HUNGARIAN</em> type for a more robust algorithm to movement (time consuming!)</li>
+</ul>
+</li>
+</ol>
+<h3 id="4-review-tracking-options-optional">4. Review tracking options [optional]</h3>
+<p><img alt="Export an overlay" src="../../../Images/icy/CellGraph/CG_4.png" /></p>
+<p>Depending on the time series frequency and the segmentation quality it can be helpful to change the default paramenters of the tracking algorithm:</p>
+<ol>
+<li>Change the <em>Propagation limit</em> to amplify(+)/reduce(-) the number of previous frames that participate in the assignment of the track of a cell.<ul>
+<li>This is useful when the sample is subject to strong motion, a shorter limit will prove more effective</li>
+</ul>
+</li>
+<li>Change the <em>Cut N border lines in 1st frame</em> to track only a core region of the sample<ul>
+<li>This is useful if the border region segmentation is poor. The algoritm will exclude <em>N</em> border layers from the cell population in the first frame and track only the remaining inner cells.</li>
+</ul>
+</li>
+</ol>
+<h3 id="5-choose-the-destination">5. Choose the Destination</h3>
+<p><img alt="Export an overlay" src="../../../Images/icy/CellGraph/CG_5.png" /></p>
+<p>The extracted graph structures are always used together with a background image. This image can be any image compatible (x, y,t) with the skeleton images, i.e. the original raw image / projected_image / second channel ecc</p>
+<ol>
+<li>Choose <em>Image to overay</em> from you active Sequences<ul>
+<li>The plugin requires an open image!</li>
+</ul>
+</li>
+<li>Deselect <em>Use ICY-SwimmingPool</em> only to avoid overriding another structure in memory<ul>
+<li>This is due to a current limitation which allows only one graph in memory at a time</li>
+</ul>
+</li>
+<li>Select <em>Remove Previous Overlays</em> if the destination image already overlays which are not needed anymore</li>
+</ol>
+<h3 id="6-run-the-plugin">6. Run the plugin</h3>
+<p>To generate the graph click on the triangle button on the lower-left of the plugin. During the Excecution the progress can be followed both in the status bar as well as in <em>Output</em> tab. After excecution the first overlay will be displayed on the active sequence.</p>
+<h3 id="generated-result">Generated Result</h3>
+<p>In case of a <em>Single frame</em> the found cell polygons with the centroids will be visualized (i.e. the <em>CELL OUTLINE</em> overlay)</p>
+<p>In case of a <em>Tracked time series</em> cell the automatically generated overlay will be the <em>TRACKING</em> one. Every cell is outlined by an individual color preserved through time and a filled with one of the following colors in case of a trackign event:</p>
+<ul>
+<li>[red] cell missing in previous frame</li>
+<li>[yellow] cell missing in next frame</li>
+<li>[green] cell missing in previous&amp;next</li>
+<li>[blue] cell dividing in next frame</li>
+<li>[magenta] brother cell missing</li>
+<li>[cyan] cell eliminated in next frame</li>
+<li>[gray] brother cell was eliminated</li>
+</ul>
+<p><img alt="CellGraph output" src="../../../Images/icy/CellGraph/CG_6.png" /></p>
+<hr />
+<h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
+<h6 id="this-page-was-written-by-davide-heller-on-290420151436">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 29.04.2015@14:36</h6>
+<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55332946-1', 'auto');
+  ga('send', 'pageview');
+
+</script></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>var base_url = '../..';</script>
+        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
+        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
