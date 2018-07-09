@@ -30,7 +30,7 @@ In order to add the EpiTools toolbar to your icy installation
 3. Enable the EpiTools workspace by checking the tickbox (see image below)
 4. Confirm by clicking _Ok_, you will be asked to restart icy to apply the changes.
 
-![Icy EpiTool's Bar](../../Images/icy/workspace_preferences.png)
+![Icy EpiTool's Bar](../Images/icy/workspace_preferences.png)
 
 After the restart should see the following screen when opening icy and selecting the Epitools Bar.
 
