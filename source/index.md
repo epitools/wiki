@@ -45,19 +45,15 @@ View older news [here](Support/Latest_News).
 ---
 
 
-MATLAB Application         |  
-:-------------------------:|:-------------------------:
-<a href="https://github.com/epitools/epitools-matlab/releases"><img border="0" alt="Epitools for Matlab v2" src="Images/download_matlab_v2.png"></a> |
-[MATLAB source code](https://github.com/epitools/epitools-matlab) |
+MATLAB Application | ICY Plugins        
+---|---
+<a href="https://github.com/epitools/epitools-matlab/releases"><img border="0" alt="Epitools for Matlab v2" src="Images/download_matlab_v2.png"></a> | <a href="https://github.com/epitools/epitools-icy/releases"><img border="0" alt="Epitools for Icy" src="Images/download_icy_plugins.png"></a> 
+[MATLAB source code](https://github.com/epitools/epitools-matlab) | [Plugins surce code](https://github.com/epitools/epitools-icy) |
 
 **For best compatability we reccomend using Matlab 2014a**
 
 visit our [F.A.Q. section](Support/FAQ) for more details on the topic.
 
-ICY Plugins        |  
-:-------------------------:|:-------------------------:
-<a href="https://github.com/epitools/epitools-icy/releases"><img border="0" alt="Epitools for Icy" src="Images/download_icy_plugins.png"></a> |
-[Plugins surce code](https://github.com/epitools/epitools-icy) |
 
 EpiTools is licensed under GPLv3 you can find the details [here](Support/Software_License).
 
@@ -115,7 +111,7 @@ _Icy Plugins_
 ## Support
 
 * In case of bugs or improvement suggestions feel free to:
-    * File an issue from this website clicking on the lower right corner *[Create a new issue]* .
+    * File an issue on the relative github repository ([icy](https://github.com/epitools/epitools-icy/issues) or [matlab](https://github.com/epitools/epitools-matlab/issues)) .
     * Write to [Davide Heller](mailto:davide.heller@imls.uzh.ch?Subject=EpiTools)
     * Write to [Lorenzo Gatti](mailto:lorenzo.gatti@uzh.ch?Subject=EpiTools)
 
