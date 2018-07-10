@@ -47,7 +47,7 @@ As attribute values we included similar features to the spreadsheet option:
 
 The export will generate an individual graphml file for every frame (e.g. frame000.xml for frame0). Additionally to the separate graphML files, a header file is added to keep reference of the included attributes. Please make sure to select a new folder when choosing the destination location.
 
-A small example for analyzing the files using the statistical computing language R can be found [here](http://imls-bg-arthemis.uzh.ch/epitools/files/samples/GraphML_example.zip).
+A small example for analyzing the files using the statistical computing language R can be found [here](https://github.com/epitools/epitools-samples).
 
 Watch our [GraphML video tutorial](https://www.dropbox.com/s/m1mg7s03whhatn9/11_CellExport_GraphML.mov?dl=0) for more information.
 

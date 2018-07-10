@@ -10,15 +10,13 @@ Welcome to the EpiTool plugins for ICY. This collection of plugins for the <a hr
 ### Download & Move the files in the right place
 ---
 
-1. Download the package cellGraph_beta.zip from [here](http://imls-bg-arthemis.uzh.ch/epitools/files/epitools_icy/cellGraph_beta.zip)
+1. Download the package cellGraph.zip from [here](https://github.com/epitools/epitools-icy/releases)
 2. Extract the package
 3. Place the plugin **_folder davhelle_** into the icy plugin folder (e.g. programs/icy/plugins)
 4. Place the workspace file **_EpiTools.xml_** into the icy workspace folder (e.g. programs/icy/workspace)
 5. The **_folder test_** does not require any particular location
 
 To update just replace the cellGraph_v#.#.#.jar in the plugin folder davhelle
-
-Release information about latest cellgraph versions: [CHANGELOG.TXT](http://imls-bg-arthemis.uzh.ch/epitools/files/epitools_icy/latest_jar/CHANGELOG.txt)
 
 ### Enable the EpiTools Workspace in Icy
 ---

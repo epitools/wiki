@@ -3,7 +3,7 @@
 
 ---------------------------------------
 ## Summary
-Starting from the beta release [**2.1.13-NightBuilds-75**](http://imls-bg-arthemis.uzh.ch/epitools/files/epitools_matlab_experimental/epitools-dev-2.1.13-NightBuilds-75.tar.gz) you can export skeletons of different ROIs taken on the image you processed with EpiTools.
+Starting from the beta release [**2.1.13-NightBuilds-75**](https://github.com/epitools/epitools-misc) you can export skeletons of different ROIs taken on the image you processed with EpiTools.
 
 ---------------------------------------
 ## How-to

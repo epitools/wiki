@@ -7,7 +7,7 @@ The [selective plane projection module](../Analysis_Modules/00_projection) from 
 
 The surface/height map files can be found in the *Analysis/* folder under *vtk/gridfit_frame_###.vtk*. Every line in these files represents a coordinate in the surface grid (i.e. x,y,z). Starting from EpiTools plugins for icy [version 0.8.7](../Support/Latest_News) we provide two tools to use these files, one to visualize the surface as 3D rendering (CellSurface) and the other to evaluate the position of cells in 3D (CellProjection overlay).
 
-We provide example files [here](http://imls-bg-arthemis.uzh.ch/epitools/files/samples/cellSurface_example.zip) to generate the visualizations below.
+We provide example files [here](https://github.com/epitools/epitools-samples) to generate the visualizations below.
 
 ## CellSurface
 

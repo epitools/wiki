@@ -6,7 +6,7 @@
 - Matlab 2013b and 2014a are the reference versions for which we support EpiTools for Matlab v2
 - for Matlab versions prior to **2013b**: 
 	- Due to dependencies on core functions which are only present from 2013b onwards we currently can't offer support for EpiTools for Matlab v2 on earlier Matlab versions.
-	- Albeit not further maintained you can still download our previous version ([EpiTools for Matlab v1](http://imls-bg-arthemis.uzh.ch/epitools/files/misc/EpiTools_v1_GUI_and_CL.zip)) which has been successfully tested on Matlab 2012b. As for time of writing (January 2016) v1 has only a slightly more reduced GUI functionality (limited comparison mode and viewing mode) but offers all modules as EpiTools for Matlab V2 as well as a command line access (you can find a sample script in the main directory).
+	- Albeit not further maintained you can still download our previous version ([EpiTools for Matlab v1](https://github.com/epitools/epitools-misc)) which has been successfully tested on Matlab 2012b. As for time of writing (January 2016) v1 has only a slightly more reduced GUI functionality (limited comparison mode and viewing mode) but offers all modules as EpiTools for Matlab V2 as well as a command line access (you can find a sample script in the main directory).
 
 - for Matlab versions after **2014a**: 
 	- With the release of Matlab version 2014b Mathworks changed the GUI system, which we had leveraged on to build the EpiTools for Matlab GUI, and how java programs are interfaced with it. Adapting to these changes and keeping the retrocompatability requires a major change in the code and we currently evaluating several options as solution. 
@@ -37,7 +37,7 @@
 
 ### Is it possible to apply the same projection to another image channel
 
-- Unfortunately this is currently not possible through our GUI but if you are fine with using the Matlab command line you can use the Surfaces.mat (2nd output of the Projection step) file to do it. The latter stores the z-origin number of every pixel in the projected image. We provide a small example script that shows how to apply it to an indivual time point. You can download it [here](http://imls-bg-arthemis.uzh.ch/epitools/files/misc/reapplyProjection.m).
+- Unfortunately this is currently not possible through our GUI but if you are fine with using the Matlab command line you can use the Surfaces.mat (2nd output of the Projection step) file to do it. The latter stores the z-origin number of every pixel in the projected image. We provide a small example script that shows how to apply it to an indivual time point. You can download it [here](https://github.com/epitools/epitools-misc).
 
 ### How to export the result of an intermediate step as tiff image
 
