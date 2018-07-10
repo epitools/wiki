@@ -7,6 +7,10 @@ In this section you will find information about new software updates and what ch
 
 ### Latest news
 
+	2016-07-22 EpiTools Icy Plugins v0.9.0
+	* Fixed uncontrolled plugin shape due to new features in the EzPlug library
+	* Updated descriptions for some plugins 
+
 	2016-04-22 EpiTools Icy Plugins v0.8.9
 	* Added layer option panel for CellEditor with buttons to confirm or undo modifications
 	* Added the possibility to Convert icy ROIs like rectangles&squares to CellColorTag

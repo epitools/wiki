@@ -32,25 +32,12 @@ EpiTools was published in Developmental Cell (January 2016), freely available at
 
 ## News
 ---
-	2016-07-22 EpiTools Icy Plugins v0.9.0
-	* Fixed uncontrolled plugin shape due to new features in the EzPlug library
-	* Updated descriptions for some plugins
 	
-	2016-04-22 EpiTools Icy Plugins v0.8.9
-	* Added layer option panel for CellEditor with buttons to confirm or undo modifications
-	* Added the possibility to Convert icy ROIs like rectangles&squares to CellColorTag
-	* Added an import functionality for CellColorTag to use previous tags
-	* Fixed missing labeling of excel sheets in EdgeColorTag
-	
-	2016-02-09 EpiTools Matlab: Parallel Computing Support
-	* Due to a software regression the parallel computing capabilities are currently broken.
-	  As consequence, please do not increase the number of processors in the input GUI.
-	  We hope to re-add the support in the next release!
-	* We added an FAQ section to the wiki [Support > Faq] for reported problems
-
-	2015-12-15 EpiTools Icy Plugins v0.8.8
-	* Fixed excel sheet export on EDGE_INTENSITY overlay (for single time points output file would be empty)
-	* Fixed relative intensity option in EDGE_INTENSITY overlay (error on icy >= 1.7)  
+	2018-07-10 EpiTools Project moved to Github!
+	* new website address: epitools.github.io
+	* new repository: github.com/epitools
+	* download sections are now pointing to the release tab of each repository
+	* example datasets can be found in the epitools-samples repository
 
 View older news [here](Support/Latest_News).
 
@@ -61,6 +48,7 @@ View older news [here](Support/Latest_News).
 MATLAB Application         |  
 :-------------------------:|:-------------------------:
 <a href="https://github.com/epitools/epitools-matlab/releases"><img border="0" alt="Epitools for Matlab v2" src="Images/download_matlab_v2.png"></a> |
+[MATLAB source code](https://github.com/epitools/epitools-matlab) |
 
 **For best compatability we reccomend using Matlab 2014a**
 
@@ -69,8 +57,7 @@ visit our [F.A.Q. section](Support/FAQ) for more details on the topic.
 ICY Plugins        |  
 :-------------------------:|:-------------------------:
 <a href="https://github.com/epitools/epitools-icy/releases"><img border="0" alt="Epitools for Icy" src="Images/download_icy_plugins.png"></a> |
-
-** The source code can be downloaded from our [Github](https://github.com/epitools) repositories**
+[Plugins surce code](https://github.com/epitools/epitools-icy) |
 
 EpiTools is licensed under GPLv3 you can find the details [here](Support/Software_License).
 
