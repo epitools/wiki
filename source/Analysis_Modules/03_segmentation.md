@@ -4,7 +4,7 @@
 ##Summary##
 Segmentation procedure to detect the individual cells in the image and find the boundaries with a seed based region growing algorithm.  
 
-![Selective Plane Projection](../../Images/matlab/segmentation.png)
+![Selective Plane Projection](../Images/matlab/segmentation.png)
 
 ---------------------------------------
 ##Assumptions##

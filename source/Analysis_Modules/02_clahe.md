@@ -7,7 +7,7 @@ the image. From the matlab documentation:
 
 > CLAHE operates on small regions in the image, called tiles, rather than the entire image. Each tile's contrast is enhanced, so that the histogram of the output region approximately matches the histogram specified by the 'Distribution' parameter. The neighboring tiles are then combined using bilinear interpolation to eliminate artificially induced boundaries. The contrast, especially in homogeneous areas, can be limited to avoid amplifying any noise that might be present in the image
 
-![Selective Plane Projection](../../Images/matlab/clahe.png)
+![Selective Plane Projection](../Images/matlab/clahe.png)
 
 ---------------------------------------
 ##Assumptions##

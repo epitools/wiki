@@ -5,7 +5,7 @@
 
 This module helps to reduce the amount of segmentation errors in the image by tracking all cell seeds throughout every frame. The GUI shows the seeds and the cell boundaries obtained from the segmentation module and uses the registered image as background.
 
-![Selective Plane Projection](../../Images/matlab/tracking.png)
+![Selective Plane Projection](../Images/matlab/tracking.png)
 
 ---------------------------------------
 ##Assumptions##

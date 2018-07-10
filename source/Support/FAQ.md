@@ -31,9 +31,9 @@
 - Nevertheless, if the Matlab tracking is preferred, you can export the tracking information by clicking on the 3rd icon from the right in the tracking GUI (see screenshot [1]). The generated csv files can be imported in icy (see screenhot [2]).
 
 
-![Matlab tracking export](../../Images/matlab/tracking_export.png)
+![Matlab tracking export](../Images/matlab/tracking_export.png)
 
-![Matlab tracking import](../../Images/matlab/tracking_import.png)
+![Matlab tracking import](../Images/matlab/tracking_import.png)
 
 ### Is it possible to apply the same projection to another image channel
 
@@ -43,10 +43,10 @@
 
 - You can export images as tiff through the context menu, by clicking on the relative item in the left panel and selecting the TIFF export option. (See screenshot below for the clahe step)
 
-- Alternatively you can also send the images directly to icy from matlab, for this method you can find more information in Quick Guide [Connecting icy](../../Quick_Guide/04_Connecting_icy).
+- Alternatively you can also send the images directly to icy from matlab, for this method you can find more information in Quick Guide [Connecting icy](../Quick_Guide/04_Connecting_icy).
 
 
-![Matlab tracking export](../../Images/matlab/clahe_export.png)
+![Matlab tracking export](../Images/matlab/clahe_export.png)
 
 ---
 This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 05.02.2016@15:30

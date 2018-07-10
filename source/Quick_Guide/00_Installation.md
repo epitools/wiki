@@ -54,7 +54,7 @@ You can do it in two different ways according to how do you feel about using the
 
 2. Select the release branch *(master)* and an appropriate empty folder *i.e. /Users/your-username/epitools*
 
-    ![SourceTree_BranchCheckout](../../Images/sourcetree_branch_checkout.png)
+    ![SourceTree_BranchCheckout](../Images/sourcetree_branch_checkout.png)
 
 3. Open Matlab.
  
@@ -93,7 +93,7 @@ If you cloned our repository you must have a git client version installed locall
 
 2. Double-click on EpiTools repository in the Bookmarks list
 
-    ![SourceTree_BrowserRepository](../../Images/sourcetree_repobrowser.png)
+    ![SourceTree_BrowserRepository](../Images/sourcetree_repobrowser.png)
     
 3. Click on *Fetch* to retrieve all the new branches of the repository
 
@@ -101,7 +101,7 @@ If you cloned our repository you must have a git client version installed locall
 
 5. Click on *Pull* to download all the new modifications made to the software
 
-     ![SourceTree_Update](../../Images/sourcetree_update.png)
+     ![SourceTree_Update](../Images/sourcetree_update.png)
 
 6. Close SourceTree
 

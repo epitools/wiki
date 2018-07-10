@@ -4,7 +4,7 @@
 ##Summary##
 If the sample is characterized by movement during the acquisition the time series can be corrected by aligning successive frames to the first.
 
-![Selective Plane Projection](../../Images/matlab/registration.png)
+![Selective Plane Projection](../Images/matlab/registration.png)
 
 ---------------------------------------
 ##Assumptions##

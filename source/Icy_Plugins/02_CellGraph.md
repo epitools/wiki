@@ -17,7 +17,7 @@ To create a graph and load it into memory open the CellGraph plugin from the too
 
 ### 1. Choose your Input files
 
-![Export an ovlerlay](../../Images/icy/CellGraph/CG_1.png)
+![Export an ovlerlay](../Images/icy/CellGraph/CG_1.png)
 
 Most importantly CellGraph needs files from which to extract the graph structure:
 
@@ -30,7 +30,7 @@ Most importantly CellGraph needs files from which to extract the graph structure
 
 ### 2. Review the secondary input options [optional]
 
-![Export an ovlerlay](../../Images/icy/CellGraph/CG_2.png)
+![Export an ovlerlay](../Images/icy/CellGraph/CG_2.png)
 
 In order to correctly analyze the input files CellGraph can be fine tuned for specific file types. By default CellGraph assumes to receive files which were directly exported from the EpiTools App for Matlab.
 
@@ -43,7 +43,7 @@ In order to correctly analyze the input files CellGraph can be fine tuned for sp
 
 ### 3. Choose if to track your skeletons
 
-![Export an ovlerlay](../../Images/icy/CellGraph/CG_3.png)
+![Export an ovlerlay](../Images/icy/CellGraph/CG_3.png)
 
 Tracking is only possible if a time series is given as inptut
 
@@ -52,7 +52,7 @@ Tracking is only possible if a time series is given as inptut
 	
 ### 4. Review tracking options [optional]
 
-![Export an overlay](../../Images/icy/CellGraph/CG_4.png)
+![Export an overlay](../Images/icy/CellGraph/CG_4.png)
 
 Depending on the time series frequency and the segmentation quality it can be helpful to change the default paramenters of the tracking algorithm:
 
@@ -63,7 +63,7 @@ Depending on the time series frequency and the segmentation quality it can be he
 
 ### 5. Choose the Destination
 
-![Export an overlay](../../Images/icy/CellGraph/CG_5.png)
+![Export an overlay](../Images/icy/CellGraph/CG_5.png)
 
 The extracted graph structures are always used together with a background image. This image can be any image compatible (x, y,t) with the skeleton images, i.e. the original raw image / projected_image / second channel ecc
 
@@ -91,7 +91,7 @@ In case of a _Tracked time series_ cell the automatically generated overlay will
 * [cyan] cell eliminated in next frame
 * [gray] brother cell was eliminated
 
-![CellGraph output](../../Images/icy/CellGraph/CG_6.png)
+![CellGraph output](../Images/icy/CellGraph/CG_6.png)
 
 ---------------------------------------
 

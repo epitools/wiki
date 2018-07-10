@@ -16,14 +16,14 @@ EpiTools separates each analysis step in modules which can executed independentl
 ---------------------------------------
 #### Available modules in release 0.1b
 
-1. [Projection](../../Analysis_Modules/00_projection) 
-2. [Registration](../../Analysis_Modules/01_registration)
-3. [Contrast Enhancement](../../Analysis_Modules/02_clahe)
-4. [Segmentation](../../Analysis_Modules/03_segmentation) 
-	* [Re-segmentation](../../Analysis_Modules/03_segmentation)
-5. [Polygon Masking](../../Analysis_Modules/04_polygonMask)
-6. [Tracking Correction](../../Analysis_Modules/05_tracking)
-7. [Skeleton generation](../../Analysis_Modules/06_skeleton)
+1. [Projection](../Analysis_Modules/00_projection) 
+2. [Registration](../Analysis_Modules/01_registration)
+3. [Contrast Enhancement](../Analysis_Modules/02_clahe)
+4. [Segmentation](../Analysis_Modules/03_segmentation) 
+	* [Re-segmentation](../Analysis_Modules/03_segmentation)
+5. [Polygon Masking](../Analysis_Modules/04_polygonMask)
+6. [Tracking Correction](../Analysis_Modules/05_tracking)
+7. [Skeleton generation](../Analysis_Modules/06_skeleton)
 
 ---------------------------------------
 ### Our instructions are too complicated? Are u lost? Watch our video tutorials!

@@ -22,7 +22,7 @@ Use the bio-imaging software [icy](http://icy.bioimageanalysis.org) to display t
 
 The connection with icy is now established. If you already opened an analysis you can test the connection by right-clicking the projection-module and clicking visualize results. The projected image should now appear as sequence in icy.
 
-![SourceTree_BranchCheckout](../../Images/matlab/send_to_icy.png)
+![SourceTree_BranchCheckout](../Images/matlab/send_to_icy.png)
 
 ---------------------------------------
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!

@@ -34,7 +34,7 @@ In order to add the EpiTools toolbar to your icy installation
 
 After the restart should see the following screen when opening icy and selecting the Epitools Bar.
 
-![Icy EpiTool's Bar](../../Images/icy/epitools_toolbar.png)
+![Icy EpiTool's Bar](../Images/icy/epitools_toolbar.png)
 
 ### Install the required plugins for icy
 ---
@@ -44,7 +44,7 @@ In order to run the EpiTools plugins, only one additional icy plugin is required
 * EzPlug SDK (most likely already installed)
 * 3D Mesh ROI (only for the CellSurface plugin)
 
-![Icy Search Bar](../../Images/icy/plugin_installation.png)
+![Icy Search Bar](../Images/icy/plugin_installation.png)
 
 ### Test if the installation was successfull
 ---
@@ -56,7 +56,7 @@ To test the installation:
  
 Learn about what can be done with it in the [next section](../01_CellOverlay)
 
-![Test Loader Result](../../Images/icy/test_plugin.png) 
+![Test Loader Result](../Images/icy/test_plugin.png) 
 
 
 ### Installation video tutorial

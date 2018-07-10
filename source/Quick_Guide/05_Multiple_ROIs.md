@@ -38,7 +38,7 @@ Starting from the beta release [**2.1.13-NightBuilds-75**](http://imls-bg-arthem
 
 4. Exporting image skeletons using the **2nd polygon mask**:
     
-    1. Click on **[Manage active pools]** from the toolbar ![Export an ovlerlay](../../Images/book_addresses.png) 
+    1. Click on **[Manage active pools]** from the toolbar ![Export an ovlerlay](../Images/book_addresses.png) 
     
     2. Select the second temporary pool from the list of available pool.
     

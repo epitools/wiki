@@ -7,7 +7,7 @@ The *CellExport* plugin can read a loaded graph structure and export the data co
 
 Check out our [video tutorial for spreadsheet export](https://www.dropbox.com/s/y7o47iniq6g7s3w/11_CellExport_Spreadsheet.mov?dl=0) for a short overview.
 
-![Export an overlay](../../Images/icy/CellExport/overview.png)
+![Export an overlay](../Images/icy/CellExport/overview.png)
 	
 
 ### Export formats
@@ -34,8 +34,8 @@ The spreadsheet option couples most of the individual overlay exports into a sin
 
 The _Only Tagged cells_ option enables to export only the cells marked through the _CELL COLOR TAG_ overlay. In this case every line will be preceeded by an additional column indicating the color tag. 
 
-![Export an overlay](../../Images/icy/CellExport/excel.png)
-![Export an overlay](../../Images/icy/CellExport/excel_file.png)
+![Export an overlay](../Images/icy/CellExport/excel.png)
+![Export an overlay](../Images/icy/CellExport/excel_file.png)
 
 ### GraphML (*.xml)
 
@@ -51,14 +51,14 @@ A small example for analyzing the files using the statistical computing language
 
 Watch our [GraphML video tutorial](https://www.dropbox.com/s/m1mg7s03whhatn9/11_CellExport_GraphML.mov?dl=0) for more information.
 
-![Export an overlay](../../Images/icy/CellExport/graphml.png)
-![Export an overlay](../../Images/icy/CellExport/graphml_file.png)
+![Export an overlay](../Images/icy/CellExport/graphml.png)
+![Export an overlay](../Images/icy/CellExport/graphml_file.png)
 
 ### Vector graphic (*.pdf)
 
 A still experimental feature is to generate vector graphics from the overlay. This plugin option generates a pdf file containing the overlays represented on the currently selected time point. This has proven to be useful especially for figure composition.
 
-![Export an overlay](../../Images/icy/CellExport/vector.png)
+![Export an overlay](../Images/icy/CellExport/vector.png)
 
 
 ### Skeleton files (\*.tiff or \*.wkt)

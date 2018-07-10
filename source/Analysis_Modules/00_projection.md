@@ -5,7 +5,7 @@
 
 Creates a 2D projection from a Z-stack by selectively choosing from which plane to extract each pixel based on a surface estimation.
 
-![Selective Plane Projection](../../Images/matlab/projection.png)
+![Selective Plane Projection](../Images/matlab/projection.png)
 
 ---------------------------------------
 ##Assumptions##
@@ -27,7 +27,7 @@ The input image is composed of several z planes representing a cohesive tissue w
 |----|----|
 | **ProjIm.mat** | Matlab matrix file containing the projected image for each frame |
 | **Surface.mat** | Matlab matrix file containing the original z-plane index for each pixel in *ProjIm.mat* |
-| **vtk/gridfit_frame_###.vtk** | Surface files for every frame containing the coordinates of the 2nd gridFit estimation in ASCII format (1 grid point per line: x,y,z) (see [CellSurface plugin](../../Icy_Plugins/05_CellSurface) for further usage) [ ! _output added starting from version 2.1.5_ ]|
+| **vtk/gridfit_frame_###.vtk** | Surface files for every frame containing the coordinates of the 2nd gridFit estimation in ASCII format (1 grid point per line: x,y,z) (see [CellSurface plugin](../Icy_Plugins/05_CellSurface) for further usage) [ ! _output added starting from version 2.1.5_ ]|
 
 ---------------------------------------
 ##Parameters##

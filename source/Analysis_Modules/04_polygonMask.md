@@ -4,7 +4,7 @@
 ##Summary##
 Create a polygonal mask to ease the correction step (hide labels and seeds that are not within the mask) and allow cropping the final skeletons if desired.
 
-![Selective Plane Projection](../../Images/matlab/crop.png)
+![Selective Plane Projection](../Images/matlab/crop.png)
 
 ---------------------------------------
 ##Assumptions##

@@ -4,7 +4,7 @@
 ##Summary##
 The cell label data structure is transformed into binary skeletons for every frame. A skeleton depicts the boundaries between cells with a white 1 pixel line (255) over black background (0). File format is PNG.
 
-![Selective Plane Projection](../../Images/matlab/skeletonize.png)
+![Selective Plane Projection](../Images/matlab/skeletonize.png)
 
 ---------------------------------------
 ##Assumptions##
