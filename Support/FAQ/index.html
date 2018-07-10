@@ -244,8 +244,8 @@
 <li>The graph matching algorithms included in EpiTools for Icy are able to detect divisions and eliminations as well as resist better to local movement (e.g. swapping). So whenever the icy tracking is viable we recommend it. The included variants ("stable marriage" and "hungarian") apply the same weighing schemes but differ in the way the optimal matching is computed, the hungarian being more global oriented and thus more time-consuming.</li>
 <li>Nevertheless, if the Matlab tracking is preferred, you can export the tracking information by clicking on the 3rd icon from the right in the tracking GUI (see screenshot [1]). The generated csv files can be imported in icy (see screenhot [2]).</li>
 </ul>
-<p><img alt="Matlab tracking export" src="../../../Images/matlab/tracking_export.png" /></p>
-<p><img alt="Matlab tracking import" src="../../../Images/matlab/tracking_import.png" /></p>
+<p><img alt="Matlab tracking export" src="../../Images/matlab/tracking_export.png" /></p>
+<p><img alt="Matlab tracking import" src="../../Images/matlab/tracking_import.png" /></p>
 <h3 id="is-it-possible-to-apply-the-same-projection-to-another-image-channel">Is it possible to apply the same projection to another image channel</h3>
 <ul>
 <li>Unfortunately this is currently not possible through our GUI but if you are fine with using the Matlab command line you can use the Surfaces.mat (2nd output of the Projection step) file to do it. The latter stores the z-origin number of every pixel in the projected image. We provide a small example script that shows how to apply it to an indivual time point. You can download it <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/misc/reapplyProjection.m">here</a>.</li>
@@ -256,14 +256,12 @@
 <p>You can export images as tiff through the context menu, by clicking on the relative item in the left panel and selecting the TIFF export option. (See screenshot below for the clahe step)</p>
 </li>
 <li>
-<p>Alternatively you can also send the images directly to icy from matlab, for this method you can find more information in Quick Guide <a href="../../../Quick_Guide/04_Connecting_icy">Connecting icy</a>.</p>
+<p>Alternatively you can also send the images directly to icy from matlab, for this method you can find more information in Quick Guide <a href="../../Quick_Guide/04_Connecting_icy">Connecting icy</a>.</p>
 </li>
 </ul>
-<p><img alt="Matlab tracking export" src="../../../Images/matlab/clahe_export.png" /></p>
+<p><img alt="Matlab tracking export" src="../../Images/matlab/clahe_export.png" /></p>
 <hr />
 <p>This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 05.02.2016@15:30</p>
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

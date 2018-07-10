@@ -211,7 +211,7 @@
 <p>After generating a graph with <a href="../../02_CellGraph">CellGraph</a> and inspecting it with <a href="../../01_CellOverlay">CellOverlay</a>, a remaining step is how to export quantitative information. </p>
 <p>The <em>CellExport</em> plugin can read a loaded graph structure and export the data contained in various formats. Currently the export is tied to an image sequence on which the graph is projected to have all the information necessary for a successful export.</p>
 <p>Check out our <a href="https://www.dropbox.com/s/y7o47iniq6g7s3w/11_CellExport_Spreadsheet.mov?dl=0">video tutorial for spreadsheet export</a> for a short overview.</p>
-<p><img alt="Export an overlay" src="../../../Images/icy/CellExport/overview.png" /></p>
+<p><img alt="Export an overlay" src="../../Images/icy/CellExport/overview.png" /></p>
 <h3 id="export-formats">Export formats</h3>
 <hr />
 <h3 id="excel-spreadsheet-xls">Excel Spreadsheet (*.xls)</h3>
@@ -235,8 +235,8 @@
 <li>[TRUE/FALSE] value whether the cell is on the boundary of the segmentation</li>
 </ul>
 <p>The <em>Only Tagged cells</em> option enables to export only the cells marked through the <em>CELL COLOR TAG</em> overlay. In this case every line will be preceeded by an additional column indicating the color tag. </p>
-<p><img alt="Export an overlay" src="../../../Images/icy/CellExport/excel.png" />
-<img alt="Export an overlay" src="../../../Images/icy/CellExport/excel_file.png" /></p>
+<p><img alt="Export an overlay" src="../../Images/icy/CellExport/excel.png" />
+<img alt="Export an overlay" src="../../Images/icy/CellExport/excel_file.png" /></p>
 <h3 id="graphml-xml">GraphML (*.xml)</h3>
 <p>The limitation of spreadsheets is the difficulty to incorporate the graph structure of the tissue. For this reason we offer another export format called graphML. This XML based format saves the structure of the graph and can be extended through vertex attributes. To read more about the GraphML format we refer the reader to the following <a href="http://graphml.graphdrawing.org">GraphML website</a> </p>
 <p>As attribute values we included similar features to the spreadsheet option:</p>
@@ -246,11 +246,11 @@
 <p>The export will generate an individual graphml file for every frame (e.g. frame000.xml for frame0). Additionally to the separate graphML files, a header file is added to keep reference of the included attributes. Please make sure to select a new folder when choosing the destination location.</p>
 <p>A small example for analyzing the files using the statistical computing language R can be found <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/samples/GraphML_example.zip">here</a>.</p>
 <p>Watch our <a href="https://www.dropbox.com/s/m1mg7s03whhatn9/11_CellExport_GraphML.mov?dl=0">GraphML video tutorial</a> for more information.</p>
-<p><img alt="Export an overlay" src="../../../Images/icy/CellExport/graphml.png" />
-<img alt="Export an overlay" src="../../../Images/icy/CellExport/graphml_file.png" /></p>
+<p><img alt="Export an overlay" src="../../Images/icy/CellExport/graphml.png" />
+<img alt="Export an overlay" src="../../Images/icy/CellExport/graphml_file.png" /></p>
 <h3 id="vector-graphic-pdf">Vector graphic (*.pdf)</h3>
 <p>A still experimental feature is to generate vector graphics from the overlay. This plugin option generates a pdf file containing the overlays represented on the currently selected time point. This has proven to be useful especially for figure composition.</p>
-<p><img alt="Export an overlay" src="../../../Images/icy/CellExport/vector.png" /></p>
+<p><img alt="Export an overlay" src="../../Images/icy/CellExport/vector.png" /></p>
 <h3 id="skeleton-files-42tiff-or-42wkt">Skeleton files (*.tiff or *.wkt)</h3>
 <ul>
 <li>
@@ -263,8 +263,6 @@
 <hr />
 <h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
 <h6 id="this-page-was-written-by-davide-heller-on-220420161745">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 22.04.2016@17:45</h6>
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

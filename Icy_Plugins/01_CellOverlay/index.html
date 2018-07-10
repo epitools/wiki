@@ -211,7 +211,7 @@
 <p>For a general overview you can watch our first CellOverlay <a href="https://www.dropbox.com/s/m1um7hdl26h5iqi/04_CellOverlay_introduction_area.mov?dl=0">tutorial video</a> too!</p>
 <pre><code>Notice: This example uses the original skeleton image as background but the overlays can be generated on any other image as well (e.g. raw image, second channel ecc.) the only limitation is that dimensions must match (x,y,t).
 </code></pre>
-<p><img alt="Layers" src="../../../Images/icy/CellOverlay/LayerIdea.png" /></p>
+<p><img alt="Layers" src="../../Images/icy/CellOverlay/LayerIdea.png" /></p>
 <h3 id="create-a-new-overlay">Create a new overlay</h3>
 <hr />
 <p>Let's add a new overlay to the test viewer (click again on TestLoader if you closed it). Here we will add a graph view overlay which visualizes the neighborhood connectivity of every cell.</p>
@@ -220,9 +220,9 @@
 <li>Select <em>GRAPH VIEW</em> from the Overlay list (see summary figure below)</li>
 <li>Generate the overlay by clicking <em>Add Overlay</em> on the plugin bottom</li>
 </ol>
-<p><img alt="Choose the graph overlay" src="../../../Images/icy/CellOverlay/GraphView1.png" /></p>
+<p><img alt="Choose the graph overlay" src="../../Images/icy/CellOverlay/GraphView1.png" /></p>
 <p>A new overlay is now present on the image and a new entry in the Layer menu:</p>
-<p><img alt="Choose the graph overlay" src="../../../Images/icy/CellOverlay/GraphView2.png" /></p>
+<p><img alt="Choose the graph overlay" src="../../Images/icy/CellOverlay/GraphView2.png" /></p>
 <h3 id="adjusting-a-gradient-color-overlay">Adjusting a gradient color overlay</h3>
 <hr />
 <p>When the overlay displays a gradient through a color scheme like in the Area example the user can adjust the scheme through the 4 parameters in the OptionPanel in the Layer menu (see image below). The <em>Gradient Maximum</em> and <em>Gradient Minimum</em> parameters set the extremes of the gradient (everything above and below has constant color). The <em>Gradient Scale</em> is a multiplier between 0 and 1 to scale the color gradient into a particular range of colors (see <a href="https://en.wikipedia.org/wiki/HSL_and_HSV">HSV color scheme</a> for more information about the color space). The <em>Gradient Shift</em> is complementary to the scale, shifting the scaled color gradient into the desired region by adding a constant factor between 0 and 1.</p>
@@ -235,23 +235,23 @@
 <li>Ellipse Fit With respect to ROI</li>
 <li>Edge Intensity</li>
 </ul>
-<p><img alt="The default Area Color Gradient" src="../../../Images/icy/CellOverlay/ColorGradient1.png" /></p>
-<p><img alt="Change maximum and minimum value" src="../../../Images/icy/CellOverlay/ColorGradient2.png" /></p>
-<p><img alt="Change shift and scale of gradient" src="../../../Images/icy/CellOverlay/ColorGradient3.png" /></p>
+<p><img alt="The default Area Color Gradient" src="../../Images/icy/CellOverlay/ColorGradient1.png" /></p>
+<p><img alt="Change maximum and minimum value" src="../../Images/icy/CellOverlay/ColorGradient2.png" /></p>
+<p><img alt="Change shift and scale of gradient" src="../../Images/icy/CellOverlay/ColorGradient3.png" /></p>
 <h3 id="export-an-overlay">Export an overlay</h3>
 <hr />
 <p>While in the later section <a href="../../03_CellExport">CellExport</a> we show how to export many data points at once, every overlay has a custom export option. This option can be reached from the layer option menu, where you can also adapt the opacity or delete the overlay. Here we show howt exprot the area of cells from the CELL_AREA overlay:</p>
 <ol>
 <li>Click on the layer name to make the export option appear
-<img alt="Export an ovlerlay" src="../../../Images/icy/CellOverlay/AreaExport1.png" /></li>
+<img alt="Export an ovlerlay" src="../../Images/icy/CellOverlay/AreaExport1.png" /></li>
 <li>Click on the export button and choose where to save the spreadsheet
-<img alt="Export an ovlerlay" src="../../../Images/icy/CellOverlay/AreaExport2.png" /></li>
+<img alt="Export an ovlerlay" src="../../Images/icy/CellOverlay/AreaExport2.png" /></li>
 <li>Every sheet in the file will contain the area of the cells in the respective frame
-<img alt="Export an ovlerlay" src="../../../Images/icy/CellOverlay/AreaExport3.png" /></li>
+<img alt="Export an ovlerlay" src="../../Images/icy/CellOverlay/AreaExport3.png" /></li>
 </ol>
 <h3 id="available-overlays">Available Overlays</h3>
 <hr />
-<p><img alt="Overlay overview" src="../../../Images/icy/CellOverlay/OverlayOverview.svg" /></p>
+<p><img alt="Overlay overview" src="../../Images/icy/CellOverlay/OverlayOverview.svg" /></p>
 <p>Currently the following overlays are available, divided by category:</p>
 <h4 id="basic">Basic</h4>
 <table>
@@ -264,9 +264,9 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/outline.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/area.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/border.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/outline.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/area.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/border.png" /></td>
 </tr>
 <tr>
 <td>Draws cell centroids and cell outlines in a color of choice</td>
@@ -291,9 +291,9 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/voronoi.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/pc.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/graph.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/voronoi.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/pc.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/graph.png" /></td>
 </tr>
 <tr>
 <td>displays the voronoi diagram computed from the cell centroids</td>
@@ -318,9 +318,9 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/tracking.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/displacement.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/divisions.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/tracking.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/displacement.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/divisions.png" /></td>
 </tr>
 <tr>
 <td>Reviews the tracking in case it has been eliminated or to highlight different aspects</td>
@@ -344,8 +344,8 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/tag.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/edgeTag.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/tag.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/edgeTag.png" /></td>
 </tr>
 <tr>
 <td>Interactively mark cells with several colors of choice and follow the cells over-time</td>
@@ -368,9 +368,9 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/transitions.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/stability.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/edgeIntensity.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/transitions.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/stability.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/edgeIntensity.png" /></td>
 </tr>
 <tr>
 <td>Computes and displays the T1 transitions present in the time lapse</td>
@@ -390,9 +390,9 @@
 </thead>
 <tbody>
 <tr>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/ellipse.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/elongation.png" /></td>
-<td><img alt="outline" src="../../../Images/icy/CellOverlay/overlays/orientationROI.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/ellipse.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/elongation.png" /></td>
+<td><img alt="outline" src="../../Images/icy/CellOverlay/overlays/orientationROI.png" /></td>
 </tr>
 <tr>
 <td>Fits an ellipse to each cell geometry and displays the longest axis</td>
@@ -418,8 +418,6 @@
 <hr />
 <h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
 <h6 id="this-page-was-written-by-davide-heller-on-121120151537">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 12.11.2015@15:37</h6>
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

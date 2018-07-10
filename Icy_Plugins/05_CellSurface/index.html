@@ -209,8 +209,8 @@
 <h1 id="visualizing-gridfit-surfaces-with-cellsurface-and-cellprojection">Visualizing GridFit© Surfaces with CellSurface and CellProjection</h1>
 <hr />
 <h2 id="assumption">Assumption</h2>
-<p>The <a href="../../../Analysis_Modules/00_projection">selective plane projection module</a> from the EpiTools app for Matlab was used (version &gt; 2.1.5). The latter automatically saves ASCII files containing the 2nd estimated surface by GridFit© [1]. </p>
-<p>The surface/height map files can be found in the <em>Analysis/</em> folder under <em>vtk/gridfit_frame_###.vtk</em>. Every line in these files represents a coordinate in the surface grid (i.e. x,y,z). Starting from EpiTools plugins for icy <a href="../../../Support/Latest_News">version 0.8.7</a> we provide two tools to use these files, one to visualize the surface as 3D rendering (CellSurface) and the other to evaluate the position of cells in 3D (CellProjection overlay).</p>
+<p>The <a href="../../Analysis_Modules/00_projection">selective plane projection module</a> from the EpiTools app for Matlab was used (version &gt; 2.1.5). The latter automatically saves ASCII files containing the 2nd estimated surface by GridFit© [1]. </p>
+<p>The surface/height map files can be found in the <em>Analysis/</em> folder under <em>vtk/gridfit_frame_###.vtk</em>. Every line in these files represents a coordinate in the surface grid (i.e. x,y,z). Starting from EpiTools plugins for icy <a href="../../Support/Latest_News">version 0.8.7</a> we provide two tools to use these files, one to visualize the surface as 3D rendering (CellSurface) and the other to evaluate the position of cells in 3D (CellProjection overlay).</p>
 <p>We provide example files <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/samples/cellSurface_example.zip">here</a> to generate the visualizations below.</p>
 <h2 id="cellsurface">CellSurface</h2>
 <p><strong>Requisites:</strong> icy plugin 3D Mesh ROI plugin [2]</p>
@@ -228,22 +228,22 @@
 <p>For more information about the decimation method visit the dedicated <a href="http://www.vtk.org/doc/nightly/html/classvtkDecimatePro.html">vtk documentation page</a></p>
 <p><code>[WARNING] Currently we do not support registered data as the translation is applied after surface export</code> 
 <code>[WARNING] If used on a z-stack, leaving the 3DVTK starts cpu intesive computation by 3D mesh roi plugin to adapt the ROI in 2D, to avoid this we suggest removing the ROI beforehand.</code></p>
-<p><img alt="CellGraph output" src="../../../Images/icy/CellSurface/surface.png" /></p>
+<p><img alt="CellGraph output" src="../../Images/icy/CellSurface/surface.png" /></p>
 <h2 id="cellprojection">CellProjection</h2>
-<p>The <em>CellProjection</em> overlay for the <a href="../../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> visualizes as color gradient the magnitude of the z-component from the surface normal of every cell. The overlay uses the estimated height map to assign z-coordinates to all coordinates of the cell’s polygon. To compute the apporximated 3D surface normal for every cells we use Newell’s method [4]. The z-component of the surface normal is useful to estimate the area projection bias through the proportional dependence between 3D and projected 2D area [5]. All values can be exported in an excel sheet through the layer options menu in icy.</p>
+<p>The <em>CellProjection</em> overlay for the <a href="../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> visualizes as color gradient the magnitude of the z-component from the surface normal of every cell. The overlay uses the estimated height map to assign z-coordinates to all coordinates of the cell’s polygon. To compute the apporximated 3D surface normal for every cells we use Newell’s method [4]. The z-component of the surface normal is useful to estimate the area projection bias through the proportional dependence between 3D and projected 2D area [5]. All values can be exported in an excel sheet through the layer options menu in icy.</p>
 <p>To load our example:</p>
 <ol>
-<li>Open <em>frame_000.tif</em> and the <a href="../../../Icy_Plugins/02_CellGraph">CellGraph plugin</a></li>
+<li>Open <em>frame_000.tif</em> and the <a href="../../Icy_Plugins/02_CellGraph">CellGraph plugin</a></li>
 <li>Choose FileType WKT and set <em>skeleton_000.wkt</em> as first time point. </li>
 <li>Run the plugin and a red outline should appear on the sequence (see figure 1)</li>
-<li>Open <a href="../../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> and select CELL_PROJECTION as Overlay</li>
+<li>Open <a href="../../Icy_Plugins/01_CellOverlay">CellOverlay plugin</a> and select CELL_PROJECTION as Overlay</li>
 <li>Set <em>gridfit_frame_000.vtk</em> as first surface file (A.)</li>
 <li>Verify the pixel size in the Sequence Properties (Icy Side Bar) to scale the surface correctly, for the example it should be (x = y = 0.102um) and (z = 0.219um) (B.)</li>
 <li>Run the plugin (i.e. add the overlay on the sequence)</li>
 <li>Export an XLS sheet with the information for every cell in the Layer Option menu (C.)</li>
 </ol>
 <p>An example output excel sheet can be found in the example dataset.</p>
-<p><img alt="CellGraph output" src="../../../Images/icy/CellSurface/projection.png" /></p>
+<p><img alt="CellGraph output" src="../../Images/icy/CellSurface/projection.png" /></p>
 <h2 id="example-files">Example files</h2>
 <p>The example surface data set contains the following files</p>
 <table>
@@ -279,7 +279,7 @@
 <h2 id="references">References</h2>
 <ol>
 <li><a href="http://www.mathworks.ch/matlabcentral/fileexchange/8998-surface-fitting-using-gridfit">Surface Fitting using gridfit by John D’Errico</a></li>
-<li>Plugin by Alexandre Dufour, available at: <a href="http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI">http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI</a>, to install it simply use the <a href="../../../Icy_Plugins/00_Installation">icy search bar</a></li>
+<li>Plugin by Alexandre Dufour, available at: <a href="http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI">http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI</a>, to install it simply use the <a href="../../Icy_Plugins/00_Installation">icy search bar</a></li>
 <li><a href="http://www.vtk.org">http://www.vtk.org</a></li>
 <li>Sutherland, Evan E., Robert F. Sproull, and Robert a. Schumacker. 1974. “A Characterization of Ten Hidden-Surface Algorithms.” ACM Computing Surveys 6 (1): 1–55. doi:10.1145/356625.356626</li>
 <li>John M. Snyder and Alan H. Barr. 1987. Ray tracing complex models containing surface tessellations. ACM Computer Graphics 21 (4): 119-128. doi:10.1145/37401.37417</li>
@@ -287,8 +287,6 @@
 <hr />
 <h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
 <h6 id="this-page-was-written-by-davide-heller-on-101120152000">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 10.11.2015@20:00</h6>
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
-
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
