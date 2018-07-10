@@ -13,7 +13,6 @@
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
-        <link href="../../colorbox.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -211,7 +210,7 @@
 <h2 id="assumption">Assumption</h2>
 <p>The <a href="../../Analysis_Modules/00_projection">selective plane projection module</a> from the EpiTools app for Matlab was used (version &gt; 2.1.5). The latter automatically saves ASCII files containing the 2nd estimated surface by GridFit© [1]. </p>
 <p>The surface/height map files can be found in the <em>Analysis/</em> folder under <em>vtk/gridfit_frame_###.vtk</em>. Every line in these files represents a coordinate in the surface grid (i.e. x,y,z). Starting from EpiTools plugins for icy <a href="../../Support/Latest_News">version 0.8.7</a> we provide two tools to use these files, one to visualize the surface as 3D rendering (CellSurface) and the other to evaluate the position of cells in 3D (CellProjection overlay).</p>
-<p>We provide example files <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/samples/cellSurface_example.zip">here</a> to generate the visualizations below.</p>
+<p>We provide example files <a href="https://github.com/epitools/epitools-samples">here</a> to generate the visualizations below.</p>
 <h2 id="cellsurface">CellSurface</h2>
 <p><strong>Requisites:</strong> icy plugin 3D Mesh ROI plugin [2]</p>
 <p>The <em>CellSurface</em> plugin visualizes the height map as 3D rendering, leveraging on the 3D Mesh ROI plugin [2] and the VTK library [3] integrated in icy. Time series are supported by assigning individual ROIs to specific frames, allowing the user to inspect the morphological changes of the surface over time.</p>

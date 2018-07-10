@@ -13,7 +13,6 @@
         <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="../../css/highlight.css">
-        <link href="../../colorbox.css" rel="stylesheet">
         <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
         <!--[if lt IE 9]>
             <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -216,7 +215,7 @@
 <p>for Matlab versions prior to <strong>2013b</strong>: </p>
 <ul>
 <li>Due to dependencies on core functions which are only present from 2013b onwards we currently can't offer support for EpiTools for Matlab v2 on earlier Matlab versions.</li>
-<li>Albeit not further maintained you can still download our previous version (<a href="http://imls-bg-arthemis.uzh.ch/epitools/files/misc/EpiTools_v1_GUI_and_CL.zip">EpiTools for Matlab v1</a>) which has been successfully tested on Matlab 2012b. As for time of writing (January 2016) v1 has only a slightly more reduced GUI functionality (limited comparison mode and viewing mode) but offers all modules as EpiTools for Matlab V2 as well as a command line access (you can find a sample script in the main directory).</li>
+<li>Albeit not further maintained you can still download our previous version (<a href="https://github.com/epitools/epitools-misc">EpiTools for Matlab v1</a>) which has been successfully tested on Matlab 2012b. As for time of writing (January 2016) v1 has only a slightly more reduced GUI functionality (limited comparison mode and viewing mode) but offers all modules as EpiTools for Matlab V2 as well as a command line access (you can find a sample script in the main directory).</li>
 </ul>
 </li>
 <li>
@@ -248,7 +247,7 @@
 <p><img alt="Matlab tracking import" src="../../Images/matlab/tracking_import.png" /></p>
 <h3 id="is-it-possible-to-apply-the-same-projection-to-another-image-channel">Is it possible to apply the same projection to another image channel</h3>
 <ul>
-<li>Unfortunately this is currently not possible through our GUI but if you are fine with using the Matlab command line you can use the Surfaces.mat (2nd output of the Projection step) file to do it. The latter stores the z-origin number of every pixel in the projected image. We provide a small example script that shows how to apply it to an indivual time point. You can download it <a href="http://imls-bg-arthemis.uzh.ch/epitools/files/misc/reapplyProjection.m">here</a>.</li>
+<li>Unfortunately this is currently not possible through our GUI but if you are fine with using the Matlab command line you can use the Surfaces.mat (2nd output of the Projection step) file to do it. The latter stores the z-origin number of every pixel in the projected image. We provide a small example script that shows how to apply it to an indivual time point. You can download it <a href="https://github.com/epitools/epitools-misc">here</a>.</li>
 </ul>
 <h3 id="how-to-export-the-result-of-an-intermediate-step-as-tiff-image">How to export the result of an intermediate step as tiff image</h3>
 <ul>
