@@ -133,7 +133,6 @@ For those of you who are into bash and terminal command
 ###### This page was written by [Lorenzo Gatti](mailto:lorenzo.gatti.89@gmail.com) on 22.08.14@14.58
 
 
-<script type="text/javascript" src="http://imls-bg-jira.uzh.ch:8080/s/dec35b3786a7548dc4b26192f22b864e-T/en_USbjk9py/64014/4/1.4.24/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?locale=en-US&collectorId=dab092eb"></script>
 
 
 <script>
