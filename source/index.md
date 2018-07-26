@@ -24,6 +24,7 @@ Second **a plugin collection for the <a href="http://icy.bioimageanalysis.org" t
 	* Cell Elongation Patterns
 * [Numerous Export options including Spreadsheets, GraphML and Vector Graphics](Icy_Plugins/03_CellExport)
 * [Visualization and measurement of the estimated 3D gridfit surface](Icy_Plugins/05_CellSurface)
+* [Clone detection based on a secondary channel](Icy_Plugins/06_CellClone)
 
 Our projects are pulished with Open source licenses. Follow us on BitBucket!
 
@@ -32,6 +33,12 @@ EpiTools was published in Developmental Cell (January 2016), freely available at
 
 ## News
 ---
+
+	2018-07-26 EpiTools Icy Plugins v0.9.1
+	* IMPORTANT Bugfix for EDGE_COLOR_TAG, the length measure in the CSV export was reported incorrectly
+	* new CELL_CLONE overlay (see CellClone page under Icy plugins) to interactively detect clones
+	* new CELL_INTENSITY overlay to measure the junction intensity for all cells
+	* more details in the github release page
 	
 	2018-07-10 EpiTools Project moved to Github!
 	* new website address: epitools.github.io
