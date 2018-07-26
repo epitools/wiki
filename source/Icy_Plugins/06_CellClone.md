@@ -26,18 +26,18 @@ The excel export accessible through the layer option menu (see example below) cu
 1. download the *cellClone_example.zip* from the [epitools_samples](https://github.com/epitools/epitools-samples) repository
 
 1. open MontageCh1.tif in icy and overlay the skeleton with the CellGraph plugin by specifying the MontageSkeleton.tif as input file
-![start](../Images/Icy/CellClone/00_start.png)
+![start](../Images/icy/CellClone/00_start.png)
 
 3. Add the CELL_CLONES overlay from the CellOverlay plugin 
-![add](../Images/Icy/CellClone/01_add_clone_overlay.png)
+![add](../Images/icy/CellClone/01_add_clone_overlay.png)
 
 4. From the layer menu choose the "Cell Clones" layer and select the export button from the menu at the bottom to save the excel file (an equivalent example excel file is included in the archive)
 
 5. (Optional) switch off the red polygon_layer by clicking the eye symbol next to the "Polygons" layer
-![export](../Images/Icy/CellClone/02_clone_export.png)
+![export](../Images/icy/CellClone/02_clone_export.png)
 
 6. (Optional) adjust the detection_threshold dynamically by moving the slider above the export button 
-![adjustment](../Images/Icy/CellClone/03_clone_threshold_adjustment.png)
+![adjustment](../Images/icy/CellClone/03_clone_threshold_adjustment.png)
 
 ## Source Code
 
