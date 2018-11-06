@@ -33,6 +33,9 @@ EpiTools was published in Developmental Cell (January 2016), freely available at
 
 ## News
 ---
+	2018-11-06 GUI-Independent EpiTools MATLAB modules
+	* added projection module at github.com/epitools/module_projection
+	* added segmentation module at github.com/epitools/module_segmentation 
 
 	2018-07-26 EpiTools Icy Plugins v0.9.1
 	* IMPORTANT Bugfix for EDGE_COLOR_TAG, the length measure in the CSV export was reported incorrectly
