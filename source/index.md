@@ -122,6 +122,7 @@ _Icy Plugins_
 
 * In case of bugs or improvement suggestions feel free to:
     * File an issue on the relative github repository ([icy](https://github.com/epitools/epitools-icy/issues) or [matlab](https://github.com/epitools/epitools-matlab/issues)) .
+    * Write to [Yanlan Mao](mailto:y.mao@ucl.ac.uk?Subject=EpiTools)
     * Write to [Davide Heller](mailto:davide.heller@imls.uzh.ch?Subject=EpiTools)
     * Write to [Lorenzo Gatti](mailto:lorenzo.gatti@uzh.ch?Subject=EpiTools)
 
