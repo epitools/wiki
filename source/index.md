@@ -70,7 +70,7 @@ EpiTools is licensed under GPLv3 you can find the details [here](Support/Softwar
 ## Video Tutorials
 ---
 
-<a href="https://www.dropbox.com/sh/ufehjrpfbgohn3x/AAACP2IIabj1u-VqWK9KnQFla?dl=0" target="_blank">EpiTools v2 Video Tutorials</a> 
+<a href="https://epitools-eu-central-1-088391093549-movies.s3-eu-west-1.amazonaws.com/index.html" target="_blank">EpiTools v2 Video Tutorials</a> 
 
 <a href="https://www.dropbox.com/sh/q99vbi39ag8cwgw/AAC8W4gkb_e-T0BtCxPOXc8ga?dl=0" target="_blank">Icy Plugin Tutorials (with audio!)</a>
 

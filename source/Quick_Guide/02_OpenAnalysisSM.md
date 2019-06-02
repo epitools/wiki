@@ -24,7 +24,7 @@ Analysis files can be generated and executed on a certain machine or executed on
 ---------------------------------------
 ### Our instructions are too complicated? Are u lost? Watch our video tutorials!
 
-1. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-10_OpeningAnalysisFile.mov" target="_blank">Opening analysis file tutorial movie</a>
+<a href="https://epitools-eu-central-1-088391093549-movies.s3-eu-west-1.amazonaws.com/index.html" target="_blank">EpiTools v2 Video Tutorials</a> 
 
 ---------------------------------------
 

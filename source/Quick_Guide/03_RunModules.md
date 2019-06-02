@@ -29,12 +29,7 @@ EpiTools separates each analysis step in modules which can executed independentl
 ### Our instructions are too complicated? Are u lost? Watch our video tutorials!
 
 
-1. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-03_Projection.mov" target="_blank">Projection tutorial movie</a>
-2. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-04_Registration_Builtin.mov" target="_blank">Registration tutorial movie</a>
-3. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-05_CLAHE.mov" target="_blank">Contrast Enhancement tutorial movie</a>
-4. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-06_Segmentation.mov" target="_blank">Segmentation tutorial movie</a>
-5. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-07_Tracking.mov" target="_blank">Tracking tutorial movie</a>
-6. <a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-09_SkeletonGeneration.mov" target="_blank">Skeleton tutorial movie</a>
+<a href="https://epitools-eu-central-1-088391093549-movies.s3-eu-west-1.amazonaws.com/index.html" target="_blank">EpiTools v2 Video Tutorials</a> 
 
 
 ---------------------------------------

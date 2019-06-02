@@ -121,7 +121,7 @@ For those of you who are into bash and terminal command
 
 ---------------------------------------
 ### Watch our video tutorials for installation for more help!
-<a href="https://www.dropbox.com/sh/wpezw6t7lma5d4f/AAD4QKHwtk61sgE2gxMLp0Vva#lh:null-00_Installation.mov" target="_blank">Installation tutorial movie</a>
+<a href="https://epitools-eu-central-1-088391093549-movies.s3-eu-west-1.amazonaws.com/index.html" target="_blank">EpiTools v2 Video Tutorials</a>
 
 
 ---------------------------------------
