@@ -4,7 +4,7 @@
     
     <url>
      <loc>/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,43 +13,43 @@
         
     <url>
      <loc>/Analysis_Modules/00_projection/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/01_registration/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/02_clahe/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/03_segmentation/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/04_polygonMask/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/05_tracking/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Analysis_Modules/06_skeleton/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -59,43 +59,43 @@
         
     <url>
      <loc>/Icy_Plugins/00_Installation/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/01_CellOverlay/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/02_CellGraph/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/03_CellExport/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/04_CellEditor/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/05_CellSurface/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Icy_Plugins/06_CellClone/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -105,37 +105,37 @@
         
     <url>
      <loc>/Quick_Guide/00_Installation/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Quick_Guide/01_CreateAnalysisFile/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Quick_Guide/02_OpenAnalysisSM/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Quick_Guide/03_RunModules/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Quick_Guide/04_Connecting_icy/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Quick_Guide/05_Multiple_ROIs/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -145,31 +145,31 @@
         
     <url>
      <loc>/Support/FAQ/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Support/Known_Issues/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Support/Latest_News/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Support/Release_Notes/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>/Support/Software_License/</loc>
-     <lastmod>2018-11-06</lastmod>
+     <lastmod>2019-06-02</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
