@@ -7,234 +7,255 @@
         <meta name="description" content="None">
         
         
-        <link rel="shortcut icon" href="./img/favicon.ico">
+        <link rel="shortcut icon" href="img/favicon.ico">
         <title>EpiTools Wiki Pages</title>
-        <link href="./css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="./css/font-awesome-4.5.0.css" rel="stylesheet">
-        <link href="./css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="./css/highlight.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-	
-	<script src="./js/jquery-1.10.2.min.js"></script>
-        <script src="./js/bootstrap-3.0.3.min.js"></script>
-        <script src="./js/highlight.pack.js"></script> 
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <link href="css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="js/jquery-1.10.2.min.js" defer></script>
+        <script src="js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body class="homepage">
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href=".">EpiTools Wiki Pages</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem active">
+                                <a href="." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="Analysis_Modules/00_projection/" class="dropdown-item">00 projection</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/01_registration/" class="dropdown-item">Registration of Time Series #</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/02_clahe/" class="dropdown-item">02 clahe</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/03_segmentation/" class="dropdown-item">03 segmentation</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/04_polygonMask/" class="dropdown-item">04 polygonMask</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/05_tracking/" class="dropdown-item">05 tracking</a>
+</li>
+                                    
+<li>
+    <a href="Analysis_Modules/06_skeleton/" class="dropdown-item">06 skeleton</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="Icy_Plugins/00_Installation/" class="dropdown-item">Installation of the EpiTools plugins for ICY</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/01_CellOverlay/" class="dropdown-item">Generating overlays using CellOverlay</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/02_CellGraph/" class="dropdown-item">Creating new Graphs with CellGraph</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/03_CellExport/" class="dropdown-item">Exporting data with CellExport</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/04_CellEditor/" class="dropdown-item">Modifying Skeleton Images with CellEditor</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/05_CellSurface/" class="dropdown-item">Visualizing GridFit© Surfaces with CellSurface and CellProjection</a>
+</li>
+                                    
+<li>
+    <a href="Icy_Plugins/06_CellClone/" class="dropdown-item">Detecting Cell Clones</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="Quick_Guide/00_Installation/" class="dropdown-item">Installation</a>
+</li>
+                                    
+<li>
+    <a href="Quick_Guide/01_CreateAnalysisFile/" class="dropdown-item">01 CreateAnalysisFile</a>
+</li>
+                                    
+<li>
+    <a href="Quick_Guide/02_OpenAnalysisSM/" class="dropdown-item">02 OpenAnalysisSM</a>
+</li>
+                                    
+<li>
+    <a href="Quick_Guide/03_RunModules/" class="dropdown-item">03 RunModules</a>
+</li>
+                                    
+<li>
+    <a href="Quick_Guide/04_Connecting_icy/" class="dropdown-item">04 Connecting icy</a>
+</li>
+                                    
+<li>
+    <a href="Quick_Guide/05_Multiple_ROIs/" class="dropdown-item">Step-by-Step guide to export skeletons from multiple ROIs</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="Support/FAQ/" class="dropdown-item">Frequently Asked Questions</a>
+</li>
+                                    
+<li>
+    <a href="Support/Known_Issues/" class="dropdown-item">Known issues</a>
+</li>
+                                    
+<li>
+    <a href="Support/Latest_News/" class="dropdown-item">Support</a>
+</li>
+                                    
+<li>
+    <a href="Support/Release_Notes/" class="dropdown-item">Release note</a>
+</li>
+                                    
+<li>
+    <a href="Support/Software_License/" class="dropdown-item">Software License</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href=".">EpiTools Wiki Pages</a>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" class="nav-link disabled">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="Analysis_Modules/00_projection/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/epitools/edit/master/docs/index.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                    <li class="active">
-                        <a href=".">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="Analysis_Modules/00_projection/">00 projection</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/01_registration/">01 registration</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/02_clahe/">02 clahe</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/03_segmentation/">03 segmentation</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/04_polygonMask/">04 polygonMask</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/05_tracking/">05 tracking</a>
-</li>
-                            
-<li >
-    <a href="Analysis_Modules/06_skeleton/">06 skeleton</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="Icy_Plugins/00_Installation/">00 Installation</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/01_CellOverlay/">01 CellOverlay</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/02_CellGraph/">02 CellGraph</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/03_CellExport/">03 CellExport</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/04_CellEditor/">04 CellEditor</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/05_CellSurface/">05 CellSurface</a>
-</li>
-                            
-<li >
-    <a href="Icy_Plugins/06_CellClone/">06 CellClone</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="Quick_Guide/00_Installation/">00 Installation</a>
-</li>
-                            
-<li >
-    <a href="Quick_Guide/01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
-</li>
-                            
-<li >
-    <a href="Quick_Guide/02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
-</li>
-                            
-<li >
-    <a href="Quick_Guide/03_RunModules/">03 RunModules</a>
-</li>
-                            
-<li >
-    <a href="Quick_Guide/04_Connecting_icy/">04 Connecting icy</a>
-</li>
-                            
-<li >
-    <a href="Quick_Guide/05_Multiple_ROIs/">05 Multiple ROIs</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="Support/FAQ/">FAQ</a>
-</li>
-                            
-<li >
-    <a href="Support/Known_Issues/">Known Issues</a>
-</li>
-                            
-<li >
-    <a href="Support/Latest_News/">Latest News</a>
-</li>
-                            
-<li >
-    <a href="Support/Release_Notes/">Release Notes</a>
-</li>
-                            
-<li >
-    <a href="Support/Software_License/">Software License</a>
-</li>
-                        </ul>
-                    </li>
-                </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                    <li class="disabled">
-                        <a rel="next" >
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="Analysis_Modules/00_projection/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/epitools">
-                                <i class="fa fa-github"></i>GitHub
-                        </a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#welcome-to-epitools">Welcome to Epitools</a></li>
-            <li><a href="#news">News</a></li>
-            <li><a href="#downloads">Downloads</a></li>
-            <li><a href="#video-tutorials">Video Tutorials</a></li>
-            <li><a href="#who-built-epitools">Who built EpiTools?</a></li>
-            <li><a href="#how-to-cite-epitools">How to cite EpiTools</a></li>
-            <li><a href="#screenshots">Screenshots</a></li>
-            <li><a href="#support">Support</a></li>
-    </ul>
-</div></div>
-                <div class="col-md-9" role="main">
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
 
-<p><img alt="EpiTools logo by Lorenzo Gatti" src="./Images/logo.png" /></p>
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#welcome-to-epitools" class="nav-link">Welcome to Epitools</a>
+              <ul class="nav flex-column">
+            <li class="nav-item" data-level="2"><a href="#news" class="nav-link">News</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#downloads" class="nav-link">Downloads</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#video-tutorials" class="nav-link">Video Tutorials</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#who-built-epitools" class="nav-link">Who built EpiTools?</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#how-to-cite-epitools" class="nav-link">How to cite EpiTools</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#screenshots" class="nav-link">Screenshots</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            <li class="nav-item" data-level="2"><a href="#support" class="nav-link">Support</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+              </ul>
+            </li>
+        </ul>
+    </div>
+</div></div>
+                    <div class="col-md-9" role="main">
+
+<p><img alt="EpiTools logo by Lorenzo Gatti" src="Images/logo.png" /></p>
 <h1 id="welcome-to-epitools">Welcome to Epitools</h1>
 <hr />
 <p>Here we present a new software toolkit to extract the membrane signal from epithelial tissues and analyze it with the aid of computer vision. The development of EpiTools was inspired by the challenges in analyzing time-lapses of growing Drosophila imaginal discs. The folded morphology, the very small apical cell surfaces and the long time series required a new automated cell recognition to accurately study growth dynamics.</p>
 <p><strong>EpiTools is composed of two main software projects to allow extended modularity</strong></p>
 <p>First <strong>an image processing application for MATLAB</strong> to extract the membrane outlines from the experimental data, featuring:</p>
 <ul>
-<li><a href="./Analysis_Modules/00_projection">Adaptive surface projection</a></li>
-<li><a href="./Analysis_Modules/03_segmentation">A Region growing segmentation algorithm with selective seeding</a></li>
-<li><a href="./Analysis_Modules/05_tracking">Assisted Seed Correction for expert input</a></li>
-<li><a href="./Quick_Guide/01_CreateAnalysisFile">An advanced GUI for a guided &amp; reproducible analysis</a></li>
+<li><a href="Analysis_Modules/00_projection">Adaptive surface projection</a></li>
+<li><a href="Analysis_Modules/03_segmentation">A Region growing segmentation algorithm with selective seeding</a></li>
+<li><a href="Analysis_Modules/05_tracking">Assisted Seed Correction for expert input</a></li>
+<li><a href="Quick_Guide/01_CreateAnalysisFile">An advanced GUI for a guided &amp; reproducible analysis</a></li>
 </ul>
 <p>Second <strong>a plugin collection for the <a href="http://icy.bioimageanalysis.org" target="_blank">bioimaging platform icy</a></strong> to interactively analyze the skeleton files, featuring:</p>
 <ul>
-<li><a href="./Icy_Plugins/02_CellGraph">A network based java data-structure to semantically describe the tissue</a></li>
-<li><a href="./Icy_Plugins/01_CellOverlay">Automatic estraction &amp; display of development features</a> including:<ul>
+<li><a href="Icy_Plugins/02_CellGraph">A network based java data-structure to semantically describe the tissue</a></li>
+<li><a href="Icy_Plugins/01_CellOverlay">Automatic estraction &amp; display of development features</a> including:<ul>
 <li>Divisions and Eliminations</li>
 <li>Junction rearragements (T1,T2)</li>
 <li>Cell Elongation Patterns</li>
 </ul>
 </li>
-<li><a href="./Icy_Plugins/03_CellExport">Numerous Export options including Spreadsheets, GraphML and Vector Graphics</a></li>
-<li><a href="./Icy_Plugins/05_CellSurface">Visualization and measurement of the estimated 3D gridfit surface</a></li>
-<li><a href="./Icy_Plugins/06_CellClone">Clone detection based on a secondary channel</a></li>
+<li><a href="Icy_Plugins/03_CellExport">Numerous Export options including Spreadsheets, GraphML and Vector Graphics</a></li>
+<li><a href="Icy_Plugins/05_CellSurface">Visualization and measurement of the estimated 3D gridfit surface</a></li>
+<li><a href="Icy_Plugins/06_CellClone">Clone detection based on a secondary channel</a></li>
 </ul>
 <p>Our projects are pulished with Open source licenses. Follow us on BitBucket!</p>
 <p>EpiTools was published in Developmental Cell (January 2016), freely available at <a href="http://dx.doi.org/10.1016/j.devcel.2015.12.012">http://dx.doi.org/10.1016/j.devcel.2015.12.012</a></p>
@@ -256,7 +277,7 @@
 * download sections are now pointing to the release tab of each repository
 * example datasets can be found in the epitools-samples repository
 </code></pre>
-<p>View older news <a href="./Support/Latest_News">here</a>.</p>
+<p>View older news <a href="Support/Latest_News">here</a>.</p>
 <h2 id="downloads">Downloads</h2>
 <hr />
 <table>
@@ -278,8 +299,8 @@
 </tbody>
 </table>
 <p><strong>For best compatability we reccomend using Matlab 2014a</strong></p>
-<p>visit our <a href="./Support/FAQ">F.A.Q. section</a> for more details on the topic.</p>
-<p>EpiTools is licensed under GPLv3 you can find the details <a href="./Support/Software_License">here</a>.</p>
+<p>visit our <a href="Support/FAQ">F.A.Q. section</a> for more details on the topic.</p>
+<p>EpiTools is licensed under GPLv3 you can find the details <a href="Support/Software_License">here</a>.</p>
 <h2 id="video-tutorials">Video Tutorials</h2>
 <hr />
 <p><a href="https://epitools-eu-central-1-088391093549-movies.s3-eu-west-1.amazonaws.com/index.html" target="_blank">EpiTools v2 Video Tutorials</a> </p>
@@ -314,23 +335,23 @@
 <h2 id="screenshots">Screenshots</h2>
 <hr />
 <p><em>Matlab Application v2</em></p>
-<p><img alt="Matlab Stable V2" src="./Images/interface_v2.png" /></p>
+<p><img alt="Matlab Stable V2" src="Images/interface_v2.png" /></p>
 <p><em>Icy Plugins</em></p>
-<p><img alt="Icy Plugins V1" src="./Images/interface_icy.png" /></p>
+<p><img alt="Icy Plugins V1" src="Images/interface_icy.png" /></p>
 <hr />
 <h2 id="support">Support</h2>
 <ul>
 <li>In case of bugs or improvement suggestions feel free to:<ul>
 <li>File an issue on the relative github repository (<a href="https://github.com/epitools/epitools-icy/issues">icy</a> or <a href="https://github.com/epitools/epitools-matlab/issues">matlab</a>) .</li>
 <li>Write to <a href="mailto:y.mao@ucl.ac.uk?Subject=EpiTools">Yanlan Mao</a></li>
-<li>Write to <a href="mailto:davide.heller@imls.uzh.ch?Subject=EpiTools">Davide Heller</a></li>
-<li>Write to <a href="mailto:lorenzo.gatti@uzh.ch?Subject=EpiTools">Lorenzo Gatti</a></li>
+<li>Write to <a href="mailto:davide.heller@gmail.com?Subject=EpiTools">Davide Heller</a></li>
+<li>Write to <a href="mailto:lorenzo.gatti.89@gmail.com?Subject=EpiTools">Lorenzo Gatti</a></li>
 </ul>
 </li>
 </ul>
 <p>We use Google Analytics to study the traffic of this website. Please find information about the data usage <a href="http://www.google.com/policies/privacy/partners/">here</a>.</p>
 <hr />
-<h6 id="this-page-was-written-by-lorenzo-gatti-and-davide-heller-on-2608141657">This page was written by <a href="mailto:lorenzo.gatti.89@gmail.com">Lorenzo Gatti</a> and <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 26.08.14@16:57</h6>
+<h6 id="this-page-was-written-by-lorenzo-gatti-and-davide-heller-on-2608141657">This page was written by <a href="mailto:lorenzo.gatti.89@gmail.com">Lorenzo Gatti</a> and <a href="mailto:davide.heller@gmail.com">Davide Heller</a> on 26.08.14@16:57</h6>
 <!-- This contains the hidden content for inline calls -->
 
 <script>
@@ -342,32 +363,77 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 ga('create', 'UA-55332946-1', 'auto');
 ga('send', 'pageview');
 </script></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script>var base_url = '.';</script>
-        <script data-main="./mkdocs/js/search.js" src="./mkdocs/js/require.js"></script>
-        <script src="./js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <script>
+            var base_url = ".",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="js/base.js" defer></script>
+        <script src="search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
             </div>
@@ -379,6 +445,6 @@ ga('send', 'pageview');
 </html>
 
 <!--
-MkDocs version : 0.16.2
-Build Date UTC : 2019-06-02 15:42:09
+MkDocs version : 1.1.2
+Build Date UTC : 2020-10-08 18:33:34.683757+00:00
 -->

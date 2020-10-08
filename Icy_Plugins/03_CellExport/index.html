@@ -8,210 +8,205 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>03 CellExport - EpiTools Wiki Pages</title>
-        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
-        <link href="../../css/font-awesome-4.5.0.css" rel="stylesheet">
+        <title>Exporting data with CellExport - EpiTools Wiki Pages</title>
+        <link href="../../css/bootstrap.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/highlight.css">
-        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
-        <!--[if lt IE 9]>
-            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-            <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
-        <![endif]-->
-	
-	<script src="../../js/jquery-1.10.2.min.js"></script>
-        <script src="../../js/bootstrap-3.0.3.min.js"></script>
-        <script src="../../js/highlight.pack.js"></script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
     </head>
 
     <body>
+        <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+            <div class="container">
+                <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+                <!-- Expander button -->
+                <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
-    <div class="container">
+                <!-- Expanded navigation -->
+                <div id="navbar-collapse" class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li class="navitem">
+                                <a href="../.." class="nav-link">Home</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Analysis_Modules/00_projection/" class="dropdown-item">00 projection</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/01_registration/" class="dropdown-item">Registration of Time Series #</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/02_clahe/" class="dropdown-item">02 clahe</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/03_segmentation/" class="dropdown-item">03 segmentation</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/04_polygonMask/" class="dropdown-item">04 polygonMask</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/05_tracking/" class="dropdown-item">05 tracking</a>
+</li>
+                                    
+<li>
+    <a href="../../Analysis_Modules/06_skeleton/" class="dropdown-item">06 skeleton</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../00_Installation/" class="dropdown-item">Installation of the EpiTools plugins for ICY</a>
+</li>
+                                    
+<li>
+    <a href="../01_CellOverlay/" class="dropdown-item">Generating overlays using CellOverlay</a>
+</li>
+                                    
+<li>
+    <a href="../02_CellGraph/" class="dropdown-item">Creating new Graphs with CellGraph</a>
+</li>
+                                    
+<li>
+    <a href="./" class="dropdown-item active">Exporting data with CellExport</a>
+</li>
+                                    
+<li>
+    <a href="../04_CellEditor/" class="dropdown-item">Modifying Skeleton Images with CellEditor</a>
+</li>
+                                    
+<li>
+    <a href="../05_CellSurface/" class="dropdown-item">Visualizing GridFit© Surfaces with CellSurface and CellProjection</a>
+</li>
+                                    
+<li>
+    <a href="../06_CellClone/" class="dropdown-item">Detecting Cell Clones</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Quick_Guide/00_Installation/" class="dropdown-item">Installation</a>
+</li>
+                                    
+<li>
+    <a href="../../Quick_Guide/01_CreateAnalysisFile/" class="dropdown-item">01 CreateAnalysisFile</a>
+</li>
+                                    
+<li>
+    <a href="../../Quick_Guide/02_OpenAnalysisSM/" class="dropdown-item">02 OpenAnalysisSM</a>
+</li>
+                                    
+<li>
+    <a href="../../Quick_Guide/03_RunModules/" class="dropdown-item">03 RunModules</a>
+</li>
+                                    
+<li>
+    <a href="../../Quick_Guide/04_Connecting_icy/" class="dropdown-item">04 Connecting icy</a>
+</li>
+                                    
+<li>
+    <a href="../../Quick_Guide/05_Multiple_ROIs/" class="dropdown-item">Step-by-Step guide to export skeletons from multiple ROIs</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li>
+    <a href="../../Support/FAQ/" class="dropdown-item">Frequently Asked Questions</a>
+</li>
+                                    
+<li>
+    <a href="../../Support/Known_Issues/" class="dropdown-item">Known issues</a>
+</li>
+                                    
+<li>
+    <a href="../../Support/Latest_News/" class="dropdown-item">Support</a>
+</li>
+                                    
+<li>
+    <a href="../../Support/Release_Notes/" class="dropdown-item">Release note</a>
+</li>
+                                    
+<li>
+    <a href="../../Support/Software_License/" class="dropdown-item">Software License</a>
+</li>
+                                </ul>
+                            </li>
+                        </ul>
 
-        <!-- Collapsed navigation -->
-        <div class="navbar-header">
-            <!-- Expander button -->
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="../..">EpiTools Wiki Pages</a>
+                    <ul class="nav navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#" class="nav-link" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li class="nav-item">
+                                <a rel="prev" href="../02_CellGraph/" class="nav-link">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a rel="next" href="../04_CellEditor/" class="nav-link">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="https://github.com/epitools/edit/master/docs/Icy_Plugins/03_CellExport.md" class="nav-link"><i class="fa fa-github"></i> Edit on GitHub</a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-
-        <!-- Expanded navigation -->
-        <div class="navbar-collapse collapse">
-                <!-- Main navigation -->
-                <ul class="nav navbar-nav">
-                    <li >
-                        <a href="../..">Home</a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Analysis Modules <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="../../Analysis_Modules/00_projection/">00 projection</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/01_registration/">01 registration</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/02_clahe/">02 clahe</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/03_segmentation/">03 segmentation</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/04_polygonMask/">04 polygonMask</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/05_tracking/">05 tracking</a>
-</li>
-                            
-<li >
-    <a href="../../Analysis_Modules/06_skeleton/">06 skeleton</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown active">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Icy Plugins <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="../00_Installation/">00 Installation</a>
-</li>
-                            
-<li >
-    <a href="../01_CellOverlay/">01 CellOverlay</a>
-</li>
-                            
-<li >
-    <a href="../02_CellGraph/">02 CellGraph</a>
-</li>
-                            
-<li class="active">
-    <a href="./">03 CellExport</a>
-</li>
-                            
-<li >
-    <a href="../04_CellEditor/">04 CellEditor</a>
-</li>
-                            
-<li >
-    <a href="../05_CellSurface/">05 CellSurface</a>
-</li>
-                            
-<li >
-    <a href="../06_CellClone/">06 CellClone</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Quick Guide <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="../../Quick_Guide/00_Installation/">00 Installation</a>
-</li>
-                            
-<li >
-    <a href="../../Quick_Guide/01_CreateAnalysisFile/">01 CreateAnalysisFile</a>
-</li>
-                            
-<li >
-    <a href="../../Quick_Guide/02_OpenAnalysisSM/">02 OpenAnalysisSM</a>
-</li>
-                            
-<li >
-    <a href="../../Quick_Guide/03_RunModules/">03 RunModules</a>
-</li>
-                            
-<li >
-    <a href="../../Quick_Guide/04_Connecting_icy/">04 Connecting icy</a>
-</li>
-                            
-<li >
-    <a href="../../Quick_Guide/05_Multiple_ROIs/">05 Multiple ROIs</a>
-</li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Support <b class="caret"></b></a>
-                        <ul class="dropdown-menu">
-                            
-<li >
-    <a href="../../Support/FAQ/">FAQ</a>
-</li>
-                            
-<li >
-    <a href="../../Support/Known_Issues/">Known Issues</a>
-</li>
-                            
-<li >
-    <a href="../../Support/Latest_News/">Latest News</a>
-</li>
-                            
-<li >
-    <a href="../../Support/Release_Notes/">Release Notes</a>
-</li>
-                            
-<li >
-    <a href="../../Support/Software_License/">Software License</a>
-</li>
-                        </ul>
-                    </li>
-                </ul>
-
-            <ul class="nav navbar-nav navbar-right">
-                <li>
-                    <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
-                        <i class="fa fa-search"></i> Search
-                    </a>
-                </li>
-                    <li >
-                        <a rel="next" href="../02_CellGraph/">
-                            <i class="fa fa-arrow-left"></i> Previous
-                        </a>
-                    </li>
-                    <li >
-                        <a rel="prev" href="../04_CellEditor/">
-                            Next <i class="fa fa-arrow-right"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/epitools">
-                                <i class="fa fa-github"></i>GitHub
-                        </a>
-                    </li>
-            </ul>
-        </div>
-    </div>
-</div>
 
         <div class="container">
-                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
-    <ul class="nav bs-sidenav">
-        <li class="main active"><a href="#exporting-data-with-cellexport">Exporting data with CellExport</a></li>
-            <li><a href="#export-formats">Export formats</a></li>
-            <li><a href="#excel-spreadsheet-xls">Excel Spreadsheet (*.xls)</a></li>
-            <li><a href="#graphml-xml">GraphML (*.xml)</a></li>
-            <li><a href="#vector-graphic-pdf">Vector graphic (*.pdf)</a></li>
-            <li><a href="#skeleton-files-42tiff-or-42wkt">Skeleton files (*.tiff or *.wkt)</a></li>
-    </ul>
+            <div class="row">
+                    <div class="col-md-3"><div class="navbar-light navbar-expand-md bs-sidebar hidden-print affix" role="complementary">
+    <div class="navbar-header">
+        <button type="button" class="navbar-toggler collapsed" data-toggle="collapse" data-target="#toc-collapse" title="Table of Contents">
+            <span class="fa fa-angle-down"></span>
+        </button>
+    </div>
+
+    
+    <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
+        <ul class="nav flex-column">
+            
+            <li class="nav-item" data-level="1"><a href="#exporting-data-with-cellexport" class="nav-link">Exporting data with CellExport</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+        </ul>
+    </div>
 </div></div>
-                <div class="col-md-9" role="main">
+                    <div class="col-md-9" role="main">
 
 <h1 id="exporting-data-with-cellexport">Exporting data with CellExport</h1>
 <hr />
-<p>After generating a graph with <a href="../../02_CellGraph">CellGraph</a> and inspecting it with <a href="../../01_CellOverlay">CellOverlay</a>, a remaining step is how to export quantitative information. </p>
+<p>After generating a graph with <a href="../02_CellGraph">CellGraph</a> and inspecting it with <a href="../01_CellOverlay">CellOverlay</a>, a remaining step is how to export quantitative information. </p>
 <p>The <em>CellExport</em> plugin can read a loaded graph structure and export the data contained in various formats. Currently the export is tied to an image sequence on which the graph is projected to have all the information necessary for a successful export.</p>
 <p>Check out our <a href="https://www.dropbox.com/s/y7o47iniq6g7s3w/11_CellExport_Spreadsheet.mov?dl=0">video tutorial for spreadsheet export</a> for a short overview.</p>
 <p><img alt="Export an overlay" src="../../Images/icy/CellExport/overview.png" /></p>
@@ -254,10 +249,10 @@
 <h3 id="vector-graphic-pdf">Vector graphic (*.pdf)</h3>
 <p>A still experimental feature is to generate vector graphics from the overlay. This plugin option generates a pdf file containing the overlays represented on the currently selected time point. This has proven to be useful especially for figure composition.</p>
 <p><img alt="Export an overlay" src="../../Images/icy/CellExport/vector.png" /></p>
-<h3 id="skeleton-files-42tiff-or-42wkt">Skeleton files (*.tiff or *.wkt)</h3>
+<h3 id="skeleton-files-tiff-or-wkt">Skeleton files (*.tiff or *.wkt)</h3>
 <ul>
 <li>
-<p>Selecting TIFF_SKELETONS exports the currently detected cells as TIFF images regardless of the input format given to CellGraph. This can be convenient in case you want to further edit your skeletons (e.g. the PNG skeletons returned by the EpiTools for Matlab) with <a href="../../04_CellEditor">CellEditor</a></p>
+<p>Selecting TIFF_SKELETONS exports the currently detected cells as TIFF images regardless of the input format given to CellGraph. This can be convenient in case you want to further edit your skeletons (e.g. the PNG skeletons returned by the EpiTools for Matlab) with <a href="../04_CellEditor">CellEditor</a></p>
 </li>
 <li>
 <p>Selecting WKT_SKELETONS exports the currently detected cells as <a href="https://en.wikipedia.org/wiki/Well-known_text">Well-Known text</a> files which describe the individual polygons composing the images. These files cannot be further edited by Pixel based methods but allow a much faster import through CellGraph as well in other Geospatial softwares/libraries.</p>
@@ -265,7 +260,7 @@
 </ul>
 <hr />
 <h6 id="do-you-think-these-informations-are-not-enough-to-help-you-drop-a-line-to-the-author-and-he-will-extend-this-tutorial-asap">Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!</h6>
-<h6 id="this-page-was-written-by-davide-heller-on-220420161745">This page was written by <a href="mailto:davide.heller@imls.uzh.ch">Davide Heller</a> on 22.04.2016@17:45</h6>
+<h6 id="this-page-was-written-by-davide-heller-on-220420161745">This page was written by <a href="mailto:davide.heller@gmail.com">Davide Heller</a> on 22.04.2016@17:45</h6>
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -276,32 +271,77 @@
   ga('send', 'pageview');
 
 </script></div>
+            </div>
         </div>
 
         <footer class="col-md-12">
             <hr>
-            <p>Documentation built with <a href="http://www.mkdocs.org/">MkDocs</a>.</p>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
-        <script>var base_url = '../..';</script>
-        <script data-main="../../mkdocs/js/search.js" src="../../mkdocs/js/require.js"></script>
-        <script src="../../js/base.js"></script><div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
-    <div class="modal-dialog">
+        <script>
+            var base_url = "../..",
+                shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
+                <h4 class="modal-title" id="searchModalLabel">Search</h4>
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
             </div>
             <div class="modal-body">
                 <p>
                     From here you can search these documents. Enter
                     your search terms below.
                 </p>
-                <form role="form">
+                <form>
                     <div class="form-group">
-                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query">
+                        <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
                 <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="keyboardModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h4 class="modal-title" id="keyboardModalLabel">Keyboard Shortcuts</h4>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
             </div>
             <div class="modal-footer">
             </div>
