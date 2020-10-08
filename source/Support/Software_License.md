@@ -48,7 +48,7 @@ Our software is distributed with the GPLv3 license:
 >along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 
-This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 28.05.2015@13:59
+This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 28.05.2015@13:59
 
 
 

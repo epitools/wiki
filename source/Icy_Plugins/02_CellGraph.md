@@ -97,7 +97,7 @@ In case of a _Tracked time series_ cell the automatically generated overlay will
 
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 29.04.2015@14:36
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 29.04.2015@14:36
 
 
 

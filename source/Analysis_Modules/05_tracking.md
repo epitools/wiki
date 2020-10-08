@@ -68,7 +68,7 @@ Incompletely tracked cells are often due to segmentation mistakes which can be c
 ---------------------------------------
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 30.09.14@17:30
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 30.09.14@17:30
 
 
 

@@ -74,7 +74,7 @@ The input image is composed of several z planes representing a cohesive tissue w
 ---------------------------------------
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 10.11.15@17:40
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 10.11.15@17:40
 
 
 

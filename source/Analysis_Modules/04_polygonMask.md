@@ -24,7 +24,7 @@ The ui interaction is build upon the *roipoly* MATLAB tool. Behavior as describe
 ---------------------------------------
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 10.09.14@17.08
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 10.09.14@17.08
 
 
 

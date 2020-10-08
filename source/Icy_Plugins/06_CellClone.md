@@ -51,7 +51,7 @@ Thanks to the Fisun lab @ EPFL for the idea of developing this overlay, the exam
 
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 26.7.2017@16:24
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 26.7.2017@16:24
 
 
 

@@ -129,7 +129,7 @@ _Icy Plugins_
 We use Google Analytics to study the traffic of this website. Please find information about the data usage [here](http://www.google.com/policies/privacy/partners/).
 
 ---------------------------------------
-###### This page was written by [Lorenzo Gatti](mailto:lorenzo.gatti.89@gmail.com) and [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 26.08.14@16:57
+###### This page was written by [Lorenzo Gatti](mailto:lorenzo.gatti.89@gmail.com) and [Davide Heller](mailto:davide.heller@gmail.com) on 26.08.14@16:57
 
 <!-- This contains the hidden content for inline calls -->
 

@@ -75,7 +75,7 @@ The example surface data set contains the following files
 
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 10.11.2015@20:00
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 10.11.2015@20:00
 
 
 

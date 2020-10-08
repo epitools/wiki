@@ -71,7 +71,7 @@ A still experimental feature is to generate vector graphics from the overlay. Th
 
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 22.04.2016@17:45
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 22.04.2016@17:45
 
 
 

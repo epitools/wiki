@@ -27,7 +27,7 @@ The connection with icy is now established. If you already opened an analysis yo
 ---------------------------------------
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 30.09.14@18:10
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 30.09.14@18:10
 
 
 

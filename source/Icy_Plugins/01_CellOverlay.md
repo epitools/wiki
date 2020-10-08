@@ -127,7 +127,7 @@ Currently the following overlays are available, divided by category:
 ---
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
 
-###### This page was written by [Davide Heller](mailto:davide.heller@imls.uzh.ch) on 12.11.2015@15:37
+###### This page was written by [Davide Heller](mailto:davide.heller@gmail.com) on 12.11.2015@15:37
 
 
 
