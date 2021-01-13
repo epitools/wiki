@@ -10,8 +10,8 @@ Use the bio-imaging software [icy](http://icy.bioimageanalysis.org) to display t
 ### 1. In Icy
 
 * install the following plugins
-	* [matlab communicator plugin](http://icy.bioimageanalysis.org/plugin/Matlab_communicator) by Yoann Le Montagner
-	* [matlab X Server](http://icy.bioimageanalysis.org/plugin/Matlab_X_server) by Yoann Le Montagner
+	* [matlab communicator plugin](http://icy.bioimageanalysis.org/plugin/Matlab-communicator) by Yoann Le Montagner
+	* [matlab X Server](http://icy.bioimageanalysis.org/plugin/Matlab-X-server) by Yoann Le Montagner
 	
 
 ### 2. In EpiTools
