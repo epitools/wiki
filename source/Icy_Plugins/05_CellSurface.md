@@ -66,7 +66,7 @@ The example surface data set contains the following files
 ## References
 
 1. [Surface Fitting using gridfit by John D’Errico](http://www.mathworks.ch/matlabcentral/fileexchange/8998-surface-fitting-using-gridfit)
-2. Plugin by Alexandre Dufour, available at: [http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI](http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI), to install it simply use the [icy search bar](../Icy_Plugins/00_Installation)
+2. Plugin by Alexandre Dufour, available at: [http://icy.bioimageanalysis.org/plugin/3D_Mesh_ROI](http://icy.bioimageanalysis.org/plugin/3D-Mesh-ROI), to install it simply use the [icy search bar](../Icy_Plugins/00_Installation)
 3. [http://www.vtk.org](http://www.vtk.org)
 4. Sutherland, Evan E., Robert F. Sproull, and Robert a. Schumacker. 1974. “A Characterization of Ten Hidden-Surface Algorithms.” ACM Computing Surveys 6 (1): 1–55. doi:10.1145/356625.356626
 5. John M. Snyder and Alan H. Barr. 1987. Ray tracing complex models containing surface tessellations. ACM Computer Graphics 21 (4): 119-128. doi:10.1145/37401.37417
