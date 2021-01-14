@@ -37,7 +37,7 @@ After the restart should see the following screen when opening icy and selecting
 ### Install the required plugins for icy
 ---
 
-In order to run the EpiTools plugins, only one additional icy plugin is required, [EzPlug](http://icy.bioimageanalysis.org/plugin/EzPlug_SDK). This is a plugin which facilitates the building of graphical user interfaces and is used by all EpiTools Plugins. To install it simply write in the icy search field the following plugin name [network connection required]:
+In order to run the EpiTools plugins, only one additional icy plugin is required, [EzPlug](http://icy.bioimageanalysis.org/plugin/EzPlug-SDK). This is a plugin which facilitates the building of graphical user interfaces and is used by all EpiTools Plugins. To install it simply write in the icy search field the following plugin name [network connection required]:
 
 * EzPlug SDK (most likely already installed)
 * 3D Mesh ROI (only for the CellSurface plugin)
