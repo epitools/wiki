@@ -12,9 +12,7 @@ Fell free to comment, vote, post and send us issues.
 Date | Version affected | Description | Issue tracker
 :-------------------------|:-------------------------:|:-------------------------|:-------------------------:
 17 Apr 2015 07:54 (GMT +2:00) | EpiTools 2.1 | EpiTools Graphic engine is not compatible with Matlab version above 2014a | <a href="http://imls-bg-jira.uzh.ch:8080/browse/ECS-146">ECS-146</a> 
-
-10 Sept 2021 12:00 | Epitools 2.1 | Epitools stop working with Icy versions from 2.1.X. Last working version is 2.0.3 
-	
+10 Sept 2021 12:00 | Epitools 2.1 | Epitools stop working with Icy versions from 2.1.X. Last working version is 2.0.3 | 
 ---------------------------------------
 
 ######  Do you think these informations are not enough to help you? Drop a line to the author and he will extend this tutorial asap!
