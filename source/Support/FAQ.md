@@ -1,6 +1,12 @@
 # Frequently Asked Questions
 ---
 
+We have collated a linux virtual machine with all the requirements installed for epitools to work. Please, send an email to [Pablo Vicente Munuera](mailto:p.munuera@ucl.ac.uk) to request it.
+
+### Which version of Icy works with Epitools?
+
+Recently, we have identified an issue from Icy versions 2.1.X onwards. We highly recommend to use Icy version 2.0.3, which unfortunately may not work with some operating systems anymore. Drop us an email and we can provide you with a working Icy version and how to open it.
+
 ### Which Matlab versions do you support?
 
 - Matlab 2013b and 2014a are the reference versions for which we support EpiTools for Matlab v2
@@ -11,7 +17,6 @@
 - for Matlab versions after **2014a**: 
 	- With the release of Matlab version 2014b Mathworks changed the GUI system, which we had leveraged on to build the EpiTools for Matlab GUI, and how java programs are interfaced with it. Adapting to these changes and keeping the retrocompatability requires a major change in the code and we currently evaluating several options as solution. 
 	- Feel free to write us if you have suggestions or comments on how to solve the compatability with future Matlab versions.
-
 
 ### Which Matlab toolboxes are required?
 
