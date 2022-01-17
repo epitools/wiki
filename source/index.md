@@ -60,7 +60,7 @@ MATLAB Application | ICY Plugins
 <a href="https://github.com/epitools/epitools-matlab/releases"><img border="0" alt="Epitools for Matlab v2" src="Images/download_matlab_v2.png"></a> | <a href="https://github.com/epitools/epitools-icy/releases"><img border="0" alt="Epitools for Icy" src="Images/download_icy_plugins.png"></a> 
 [MATLAB source code](https://github.com/epitools/epitools-matlab) | [Plugins surce code](https://github.com/epitools/epitools-icy) |
 
-**For best compatability we reccomend using Matlab 2014a**
+**For best compatability we reccomend using Matlab 2014a and Icy version 2.0.3**
 
 visit our [F.A.Q. section](Support/FAQ) for more details on the topic.
 
