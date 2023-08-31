@@ -1,12 +1,18 @@
 ![EpiTools logo by Lorenzo Gatti](Images/logo.png)
 
+## PLEASE, USE THE NAPARI PLUGIN INSTEAD: 
+# [EpiTools Napari plugin](https://github.com/epitools/epitools)
+
+<br/>
+
+---
 
 # Welcome to Epitools
 ---
 
 Here we present a new software toolkit to extract the membrane signal from epithelial tissues and analyze it with the aid of computer vision. The development of EpiTools was inspired by the challenges in analyzing time-lapses of growing Drosophila imaginal discs. The folded morphology, the very small apical cell surfaces and the long time series required a new automated cell recognition to accurately study growth dynamics.
 
-**EpiTools is composed of two main software projects to allow extended modularity**
+EpiTools is composed of two main software projects to allow extended modularity
 
 First **an image processing application for MATLAB** to extract the membrane outlines from the experimental data, featuring:
 
