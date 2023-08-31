@@ -8,16 +8,13 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>05 tracking - EpiTools Wiki Pages</title>
+        <title>Tracking Corrections - EpiTools Wiki Pages</title>
         <link href="../../css/bootstrap.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-
-        <script src="../../js/jquery-1.10.2.min.js" defer></script>
-        <script src="../../js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body>
@@ -41,31 +38,31 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="../00_projection/" class="dropdown-item">00 projection</a>
+    <a href="../00_projection/" class="dropdown-item">Selective Plane Projection for Z-Stacks</a>
 </li>
                                     
 <li>
-    <a href="../01_registration/" class="dropdown-item">Registration of Time Series #</a>
+    <a href="../01_registration/" class="dropdown-item">Registration of Time Series</a>
 </li>
                                     
 <li>
-    <a href="../02_clahe/" class="dropdown-item">02 clahe</a>
+    <a href="../02_clahe/" class="dropdown-item">Contrast limited adaptive histogram equalization</a>
 </li>
                                     
 <li>
-    <a href="../03_segmentation/" class="dropdown-item">03 segmentation</a>
+    <a href="../03_segmentation/" class="dropdown-item">Region growing segmentation</a>
 </li>
                                     
 <li>
-    <a href="../04_polygonMask/" class="dropdown-item">04 polygonMask</a>
+    <a href="../04_polygonMask/" class="dropdown-item">Polygonal Mask</a>
 </li>
                                     
 <li>
-    <a href="./" class="dropdown-item active">05 tracking</a>
+    <a href="./" class="dropdown-item active">Tracking Corrections</a>
 </li>
                                     
 <li>
-    <a href="../06_skeleton/" class="dropdown-item">06 skeleton</a>
+    <a href="../06_skeleton/" class="dropdown-item">Skeleton Generation</a>
 </li>
                                 </ul>
                             </li>
@@ -123,7 +120,7 @@
 </li>
                                     
 <li>
-    <a href="../../Quick_Guide/04_Connecting_icy/" class="dropdown-item">04 Connecting icy</a>
+    <a href="../../Quick_Guide/04_Connecting_icy/" class="dropdown-item">Visualize results in icy</a>
 </li>
                                     
 <li>
@@ -333,12 +330,14 @@
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="../../js/jquery-3.6.0.min.js"></script>
+        <script src="../../js/bootstrap.min.js"></script>
         <script>
             var base_url = "../..",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="../../js/base.js" defer></script>
-        <script src="../../search/main.js" defer></script>
+        <script src="../../js/base.js"></script>
+        <script src="../../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -348,16 +347,13 @@
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>

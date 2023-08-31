@@ -12,12 +12,9 @@
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/font-awesome.min.css" rel="stylesheet">
         <link href="css/base.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
-
-        <script src="js/jquery-1.10.2.min.js" defer></script>
-        <script src="js/bootstrap.min.js" defer></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-        <script>hljs.initHighlightingOnLoad();</script> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+        <script>hljs.highlightAll();</script> 
     </head>
 
     <body class="homepage">
@@ -41,31 +38,31 @@
                                 <ul class="dropdown-menu">
                                     
 <li>
-    <a href="Analysis_Modules/00_projection/" class="dropdown-item">00 projection</a>
+    <a href="Analysis_Modules/00_projection/" class="dropdown-item">Selective Plane Projection for Z-Stacks</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/01_registration/" class="dropdown-item">Registration of Time Series #</a>
+    <a href="Analysis_Modules/01_registration/" class="dropdown-item">Registration of Time Series</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/02_clahe/" class="dropdown-item">02 clahe</a>
+    <a href="Analysis_Modules/02_clahe/" class="dropdown-item">Contrast limited adaptive histogram equalization</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/03_segmentation/" class="dropdown-item">03 segmentation</a>
+    <a href="Analysis_Modules/03_segmentation/" class="dropdown-item">Region growing segmentation</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/04_polygonMask/" class="dropdown-item">04 polygonMask</a>
+    <a href="Analysis_Modules/04_polygonMask/" class="dropdown-item">Polygonal Mask</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/05_tracking/" class="dropdown-item">05 tracking</a>
+    <a href="Analysis_Modules/05_tracking/" class="dropdown-item">Tracking Corrections</a>
 </li>
                                     
 <li>
-    <a href="Analysis_Modules/06_skeleton/" class="dropdown-item">06 skeleton</a>
+    <a href="Analysis_Modules/06_skeleton/" class="dropdown-item">Skeleton Generation</a>
 </li>
                                 </ul>
                             </li>
@@ -123,7 +120,7 @@
 </li>
                                     
 <li>
-    <a href="Quick_Guide/04_Connecting_icy/" class="dropdown-item">04 Connecting icy</a>
+    <a href="Quick_Guide/04_Connecting_icy/" class="dropdown-item">Visualize results in icy</a>
 </li>
                                     
 <li>
@@ -195,6 +192,16 @@
     <div id="toc-collapse" class="navbar-collapse collapse card bg-secondary">
         <ul class="nav flex-column">
             
+            <li class="nav-item" data-level="2"><a href="#please-use-the-napari-plugin-instead" class="nav-link">PLEASE, USE THE NAPARI PLUGIN INSTEAD:</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
+            <li class="nav-item" data-level="1"><a href="#epitools-napari-plugin" class="nav-link">EpiTools Napari plugin</a>
+              <ul class="nav flex-column">
+              </ul>
+            </li>
+            
             <li class="nav-item" data-level="1"><a href="#welcome-to-epitools" class="nav-link">Welcome to Epitools</a>
               <ul class="nav flex-column">
             <li class="nav-item" data-level="2"><a href="#news" class="nav-link">News</a>
@@ -233,10 +240,14 @@
                     <div class="col-md-9" role="main">
 
 <p><img alt="EpiTools logo by Lorenzo Gatti" src="Images/logo.png" /></p>
+<h2 id="please-use-the-napari-plugin-instead">PLEASE, USE THE NAPARI PLUGIN INSTEAD:</h2>
+<h1 id="epitools-napari-plugin"><a href="https://github.com/epitools/epitools">EpiTools Napari plugin</a></h1>
+<p><br/></p>
+<hr />
 <h1 id="welcome-to-epitools">Welcome to Epitools</h1>
 <hr />
 <p>Here we present a new software toolkit to extract the membrane signal from epithelial tissues and analyze it with the aid of computer vision. The development of EpiTools was inspired by the challenges in analyzing time-lapses of growing Drosophila imaginal discs. The folded morphology, the very small apical cell surfaces and the long time series required a new automated cell recognition to accurately study growth dynamics.</p>
-<p><strong>EpiTools is composed of two main software projects to allow extended modularity</strong></p>
+<p>EpiTools is composed of two main software projects to allow extended modularity</p>
 <p>First <strong>an image processing application for MATLAB</strong> to extract the membrane outlines from the experimental data, featuring:</p>
 <ul>
 <li><a href="Analysis_Modules/00_projection">Adaptive surface projection</a></li>
@@ -370,12 +381,14 @@ ga('send', 'pageview');
             <hr>
             <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
         </footer>
+        <script src="js/jquery-3.6.0.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script>
             var base_url = ".",
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
-        <script src="js/base.js" defer></script>
-        <script src="search/main.js" defer></script>
+        <script src="js/base.js"></script>
+        <script src="search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
@@ -385,16 +398,13 @@ ga('send', 'pageview');
                 <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
             </div>
             <div class="modal-body">
-                <p>
-                    From here you can search these documents. Enter
-                    your search terms below.
-                </p>
+                <p>From here you can search these documents. Enter your search terms below.</p>
                 <form>
                     <div class="form-group">
                         <input type="search" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
                     </div>
                 </form>
-                <div id="mkdocs-search-results"></div>
+                <div id="mkdocs-search-results" data-no-results-text="No results found"></div>
             </div>
             <div class="modal-footer">
             </div>
@@ -445,6 +455,6 @@ ga('send', 'pageview');
 </html>
 
 <!--
-MkDocs version : 1.1.2
-Build Date UTC : 2022-01-17 10:25:15.538996+00:00
+MkDocs version : 1.5.2
+Build Date UTC : 2023-08-31 10:22:57.530048+00:00
 -->
